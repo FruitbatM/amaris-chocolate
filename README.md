@@ -50,3 +50,9 @@ As a business owner, I would like to:
 - expand our existing market and build brand awareness
 - increase the sales
 - have the user interface that is simple, elegant, and easy to use
+
+# Features
+
+# Technologies
+- Favicon
+https://favicon.io/favicon-converter/
