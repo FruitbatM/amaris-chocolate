@@ -1,3 +1,19 @@
+/*Navbar*/
 .navbar {
     background-color:#3a200f;
+}
+
+navbar-text {
+    font-family: 'Merriweather Sans', sans-serif;
+    color:#fafafa;
+    font-weight: 400;
+    font-size:1.25rem;
+}
+
+.nav-link {
+   font-family: 'Merriweather', serif;
+   color: #fafafa;
+   font-weight: 400;
+   font-size: 1rem;
+   text-transform: uppercase;
 }
