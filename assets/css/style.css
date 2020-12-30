@@ -16,4 +16,9 @@ navbar-text {
    font-weight: 400;
    font-size: 1rem;
    text-transform: uppercase;
+   display: inline;
+}
+
+h1 {
+    padding: 50px;
 }
