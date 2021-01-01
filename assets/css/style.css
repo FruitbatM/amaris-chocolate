@@ -42,24 +42,19 @@
 }
 */
 
-/*Hero image*/
-.hero-image {
-    background: url(../images/hero_image1.jpg) fixed;
-    height: 80vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
+/*Hero Image - jumbotron*/
+    #jumbo {
+        background: url(../images/hero_image1.jpg);
+        height: 75vh;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
 
-/*Hero Image*/
-.hero-text {
-    color: #fafafa;
-}
-
+    .display-5 {
+        text-align: center;
+        margin-top: 7rem;
+    }
 
 h1 {
     text-align: center;
