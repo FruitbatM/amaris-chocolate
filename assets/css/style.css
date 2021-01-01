@@ -1,6 +1,10 @@
 /*Navbar*/
+.nav-section {
+    padding: 0;
+}
+
 .navbar {
-    background-color:#3A200F;
+    background-color:#5C3324;
     text-align: right;
 }
 
@@ -12,12 +16,13 @@
     position: relative;
 }
 
-/*Not working - to check*/
+/*Not working - to check
 .navbar-toggler {
     float: left;
     position: relative;
     cursor: pointer;
 }
+*/
 
 .nav-link {
    font-family: 'Merriweather', serif;
@@ -37,15 +42,26 @@
 }
 */
 
-h1 {
-    padding: 50px;
-}
-
 /*Hero image*/
 .hero-image {
-    background-image: url(assets/images/hero_image1.jpg);
-    background-size: cover;
+    background: url(../images/hero_image1.jpg) fixed;
+    height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/*Hero Image*/
+.hero-text {
+    color: #fafafa;
+}
+
+
+h1 {
+    text-align: center;
+    padding-top: 3.5rem;
 }
