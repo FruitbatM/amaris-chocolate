@@ -77,3 +77,16 @@
         text-align: center;
         margin-top: 1.5rem;
     }
+
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+
+    .chocolate-bar {
+        width: 100px;
+        min-width: 260px;
+        max-width: 600px;
+        padding: 3rem;
+
+    }
