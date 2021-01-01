@@ -1,13 +1,22 @@
 /*Navbar*/
 .navbar {
-    background-color:#3a200f;
+    background-color:#3A200F;
+    text-align: right;
 }
 
-navbar-text {
+.navbar-text {
     font-family: 'Merriweather Sans', sans-serif;
     color:#fafafa;
     font-weight: 400;
-    font-size:1.25rem;
+    font-size:1.5rem;
+    position: relative;
+}
+
+/*Not working - to check*/
+.navbar-toggler {
+    float: left;
+    position: relative;
+    cursor: pointer;
 }
 
 .nav-link {
@@ -16,8 +25,17 @@ navbar-text {
    font-weight: 400;
    font-size: 1rem;
    text-transform: uppercase;
-   display: inline;
+   display: block;
+   padding: .4rem;
 }
+/*For tablets and below
+@media (max-width: 768px) {
+#sidebar-toggle {
+    position: relative;
+    float: left !important;
+    }
+}
+*/
 
 h1 {
     padding: 50px;
