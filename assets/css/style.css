@@ -66,15 +66,21 @@
     }
 
     /*Our Chocolate section*/
-    .chocolate-text>h1 {
+    .chocolate-text-header>h1 {
         text-align: center;
         padding-top: 2rem;
         font-family: 'Merriweather Sans', sans-serif;
         font-weight: 300;
     }
 
-    .chocolate-text>p {
+    .divider {
+        width: 35%;
+    }
+
+    .chocolate-text-header>p {
         font-size: 1rem;
+        font-family: 'Merriweather', sans-serif;
+        font-weight: 200;
         text-align: center;
         margin-top: 1.5rem;
     }
