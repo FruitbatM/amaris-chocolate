@@ -101,9 +101,8 @@
 
     .btn-more {
         background-color:#774936;
-        display: block;
-        text-align: center!important;
-        vertical-align: middle;
+        display: inline-block;
+        text-align: center;
         line-height: 1.4rem;
         padding: 0.5rem 1rem;
         font-size: 1rem;
