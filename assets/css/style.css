@@ -49,6 +49,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        width: 100%;
     }
 
     .display-5 {
@@ -78,15 +79,19 @@
         margin-top: 1.5rem;
     }
 
-    img {
+    .chocolate-bar {
         vertical-align: middle;
         border-style: none;
-    }
-
-    .chocolate-bar {
         width: 100px;
         min-width: 260px;
         max-width: 600px;
-        padding: 3rem;
+        padding: 2rem;
 
+    }
+
+    container, 
+    container-fluid,
+    row {
+        margin: 0;
+        padding: 0;
     }
