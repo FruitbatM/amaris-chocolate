@@ -115,11 +115,25 @@
         color: #411D13;
     }
 
-    .chocolate-text-header>p {
+    .story-text-header>p {
         font-size: 1rem;
         font-family: 'Merriweather', sans-serif;
         font-weight: 200;
         text-align: center;
         margin-top: 1.5rem;
         color: #38160D;
+    }
+
+    /*check this setting*/
+    .story-image {
+        width: 100%;
+        min-width: 220px;
+        max-width: 550px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .img {
+        vertical-align: middle;
+        border-style: none;
     }
