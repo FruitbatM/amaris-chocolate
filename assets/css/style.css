@@ -99,11 +99,16 @@
 
     }
 
-    container, 
-    container-fluid,
-    row {
-        margin: 0;
-        padding: 0;
+    .btn-more {
+        background-color:#774936;
+        display: inline-block;
+        text-align: center!important;
+        vertical-align: middle;
+        line-height: 1.4rem;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border-radius: 0.4rem;
+        text-transform: uppercase;
     }
 
     /*Our Story section*/
@@ -133,7 +138,16 @@
         padding: 2rem;
     }
 
-    .img {
+    img {
         vertical-align: middle;
         border-style: none;
     }
+
+    container, 
+    container-fluid,
+    row {
+        margin: 0;
+        padding: 0;
+    }
+
+    
