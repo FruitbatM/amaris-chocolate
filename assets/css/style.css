@@ -174,3 +174,14 @@
         font-weight: 200;
         margin-left: 0.5rem;
     }
+
+    .social-heading {
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 200;
+    }
+
+    .social-media i {
+        color: #fafafa;
+    }
