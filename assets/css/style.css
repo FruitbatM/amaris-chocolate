@@ -157,3 +157,20 @@
         font-family: 'Merriweather Sans', sans-serif;
         font-weight: 200;
     }
+
+    .footer-email>a {
+        color: #fafafa;
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 200;
+        margin-left: 0.5rem;
+    }
+    .footer-phone>a {
+        color: #fafafa;
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 200;
+        margin-left: 0.5rem;
+    }
