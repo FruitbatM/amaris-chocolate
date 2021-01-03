@@ -135,10 +135,10 @@
         max-width: 550px;
         margin: 0 auto;
         padding: 2rem;
+        vertical-align: middle;
     }
 
     img {
-        vertical-align: middle;
         border-style: none;
     }
 
@@ -149,4 +149,11 @@
         padding: 0;
     }
 
-    
+    /*Footer*/
+    .footer-bg-color {
+        background-color: #5C3324;
+        color: #fafafa;
+        font-size: 0.9rem;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 200;
+    }
