@@ -93,7 +93,7 @@
         vertical-align: middle;
         border-style: none;
         width: 100px;
-        min-width: 260px;
+        min-width: 200px;
         max-width: 600px;
         padding: 2rem;
 
@@ -103,8 +103,8 @@
         background-color:#774936;
         display: inline-block;
         text-align: center;
-        line-height: 1.4rem;
-        padding: 0.5rem 1rem;
+        line-height: 1.2rem;
+        padding: 0.3rem 0.7rem;
         font-size: 1rem;
         border-radius: 0.4rem;
         text-transform: uppercase;
@@ -136,10 +136,6 @@
         margin: 0 auto;
         padding: 2rem;
         vertical-align: middle;
-    }
-
-    img {
-        border-style: none;
     }
 
     container, 
@@ -185,3 +181,4 @@
     .social-media i {
         color: #fafafa;
     }
+
