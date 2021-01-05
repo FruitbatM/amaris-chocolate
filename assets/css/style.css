@@ -130,12 +130,30 @@
 
     /*check this setting*/
     .story-image {
-        width: 100%;
-        min-width: 220px;
-        max-width: 550px;
+        max-width: 100%;
+        height: auto;
         margin: 0 auto;
         padding: 2rem;
         vertical-align: middle;
+    }
+
+    .our-story-text>h2 {
+        padding-top: 2rem;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 300;
+        color: #411D13;
+    }
+
+    .our-story-text>p {
+        font-size: 1rem;
+        font-family: 'Merriweather', sans-serif;
+        font-weight: 200;
+        margin-top: 1.5rem;
+        color: #38160D;
+    }
+
+    .text-center {
+        align-items: center;
     }
 
     container, 
