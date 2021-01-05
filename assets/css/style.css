@@ -63,6 +63,7 @@
         text-align: center;
         margin-top: 1rem;
         font-weight: 300;
+        font-size: 1.1rem;
     }
 
     /*Our Chocolate section*/
@@ -126,12 +127,11 @@
         color: #38160D;
     }
 
-    /*check this setting*/
     .story-image {
         max-width: 100%;
         height: auto;
         margin: 0 auto;
-        padding: 2rem;
+        padding: 1rem;
         vertical-align: middle;
     }
 
