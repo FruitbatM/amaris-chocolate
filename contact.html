@@ -34,7 +34,7 @@
                 <div class="collapse navbar-collapse" id="AmarisNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mr-3">
-                            <a href="index.html" class="nav-link active">Home</a>
+                            <a href="index.html" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item mr-3">
                             <a href="#" class="nav-link">Our Chocolate</a>
@@ -43,48 +43,35 @@
                             <a href="#" class="nav-link">Our Story</a>
                         </li>
                         <li class="nav-item mr-3">
-                            <a href="#" class="nav-link">Contact Us</a>
+                            <a href="#" class="nav-link active">Contact Us</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-
-
-
-
-    <!--Footer-->
-    <footer class="container-fluid footer-section pt-3">
-        <div class="row">
-            <!--Copyright-->
-            <div class="col-sm-12 col-md-4 copyright text-md-left">
-                <p>Copyright @ Marina Pavlovic</p>
-            </div>
-            <!--Contact column-->
-            <div class="col-sm-12 col-md-4 footer-contact">
-                <p class="footer-email">
-                    <i class="far fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:chocolateamaris@gmail.com">chocolateamaris@gmail.com</a>
-                </p>
-                <p class="footer-phone">
-                    <i class="fas fa-phone-alt" aria-hidden="true"></i>
-                    <a href="tel:0035398482875">0035398482875</a>
-                </p>
-            </div>
-            <div class="col-sm-12 col-md-4 social-media text-md-right">
-                <h4 class="social-heading d-none d-md-block">
-                    follow us:
-                </h4>
-                <a href="https://instagram.com/amarischocolate?igshid=1667ht4yp9fdt" target="_blank">
-                    <i class="fab fa-instagram mr-4 p-1" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.facebook.com/AmarisChocolate" target="_blank">
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                </a>
+    <section id="contact-form bg-light">
+        <div class="container">
+            <div class="row">
+                <form method="POST" action="" id="contact-form">
+                    <div class="form-group row">
+                        <label for="name-contact" class="col-md-2 col-form-label">Your Name</label>
+                        <div class="col-md-10">
+                            <input type="text" name="your-name" class="form-control" id="name-contact" placeholder="Your Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email-contact" class="col-md-2 col-form-label">Your Email</label>
+                        <div class="col-md-10">
+                            <input type="email" name="email" class="form-control" id="name-contact" placeholder="Your e-mail">
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-    </footer>
+    </section>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
