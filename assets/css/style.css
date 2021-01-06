@@ -200,8 +200,22 @@
         font-size: 1.2rem;
     }
 
-    /*Contact Form
-    .contact-form {
-        display: block;
+    /*Contact Form*/
+
+    .contact-heading>h2 {
+        text-align: center;
+        padding-top: 2rem;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-weight: 400;
+        color: #411D13;
     }
-    */
+
+    .btn-contact {
+        background-color:#774936;
+        display: inline-block;
+        text-align: center;
+        line-height: 1.2rem;
+        padding: 0.3rem 0.7rem;
+        font-size: 1rem;
+        border-radius: 0.4rem;
+    }
