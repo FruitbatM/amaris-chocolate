@@ -131,7 +131,7 @@
         max-width: 100%;
         height: auto;
         margin: 0 auto;
-        padding: 1rem;
+        padding: 0.2rem;
         vertical-align: middle;
     }
 
@@ -221,4 +221,8 @@
         padding: 0.3rem 0.7rem;
         font-size: 1rem;
         border-radius: 0.4rem;
+    }
+    
+    .bg-light {
+        background-color: #F5E8E1!important;
     }
