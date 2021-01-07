@@ -215,14 +215,30 @@
 
     .btn-contact {
         background-color:#774936;
-        display: inline-block;
+        display: block;
         text-align: center;
-        line-height: 1.2rem;
-        padding: 0.3rem 0.7rem;
+        line-height: 1rem;
+        padding: 0.6rem 1.2rem;
         font-size: 1rem;
         border-radius: 0.4rem;
+        text-transform: uppercase;
+        margin: auto;
     }
-    
+
     .bg-light {
         background-color: #F5E8E1!important;
+    }
+
+    .contact-required {
+        font-size: 0.9rem;
+        font-weight: 200;
+    }
+
+    .form-row {
+        font-family: 'Merriweather Sans', sans-serif;;
+    }
+
+     /*setting not working - check*/
+    .placeholder {
+        font-size: 0.8rem;
     }
