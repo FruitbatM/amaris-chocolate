@@ -94,6 +94,11 @@
         background-color: #F5E8E1!important;
     }
 
+    .chocolate-card {
+        border: none;
+    }
+
+
     .chocolate-bar {
         vertical-align: middle;
         border-style: none;
