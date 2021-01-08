@@ -12,7 +12,7 @@
     font-family: 'Merriweather Sans', sans-serif;
     color:#fafafa!important;
     font-weight: 400;
-    font-size:1.5rem;
+    font-size:1.2rem;
     position: relative;
 }
 
@@ -45,7 +45,7 @@
 /*Hero Image - jumbotron*/
     #jumbo {
         background: url(../images/hero_image1.jpg);
-        height: 75vh;
+        height: 80vh;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -54,7 +54,7 @@
 
     .display-5 {
         text-align: center;
-        margin-top: 12.5rem;
+        margin-top: 13rem;
         font-family: 'Merriweather Sans', sans-serif;
     }
 
@@ -88,6 +88,10 @@
         text-align: center;
         margin-top: 1.5rem;
         color: #38160D;
+    }
+
+    .chocolate-bar.section {
+        background-color: #F5E8E1!important;
     }
 
     .chocolate-bar {
@@ -228,6 +232,7 @@
     .bg-light {
         background-color: #F5E8E1!important;
     }
+
 
     .contact-required {
         font-size: 0.9rem;
