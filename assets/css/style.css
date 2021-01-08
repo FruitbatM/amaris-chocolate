@@ -90,7 +90,7 @@
         color: #38160D;
     }
 
-    .chocolate-bar.section {
+    #chocolate-bar-section {
         background-color: #F5E8E1!important;
     }
 
@@ -121,6 +121,17 @@
     }
 
     .btn-more {
+        background-color:#774936;
+        display: inline-block;
+        text-align: center;
+        line-height: 1.2rem;
+        padding: 0.3rem 0.7rem;
+        font-size: 1rem;
+        border-radius: 0.4rem;
+        text-transform: uppercase;
+    }
+
+    .btn-order {
         background-color:#774936;
         display: inline-block;
         text-align: center;
