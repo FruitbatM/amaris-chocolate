@@ -51,6 +51,12 @@
         background-repeat: no-repeat;
         width: 100%;
     }
+    
+    /*Add to remove the gap between jumbotron and 'Our chocolate' section.*/
+    .jumbotron {
+        margin-bottom: 0;
+    }
+
 
     .display-5 {
         text-align: center;
@@ -150,6 +156,11 @@
 
 
     /*Our Story section*/
+
+    .our-story-main{
+        margin-top: 4rem;
+    }
+
     .story-text-header>h2 {
         text-align: center;
         padding-top: 2rem;
@@ -172,7 +183,7 @@
         max-width: 100%;
         height: auto;
         margin: 0 auto;
-        padding: 0.8rem;
+        padding: 1rem;
         vertical-align: middle;
         margin-bottom: 2rem;
     }
@@ -279,6 +290,7 @@
 
     .bg-light {
         background-color: #F5E8E1!important;
+        width: 100%;
     }
 
 
