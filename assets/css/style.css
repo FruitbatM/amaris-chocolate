@@ -134,6 +134,7 @@
     /*Add wrapper class to position .btn-order to center*/
     .wrapper {
         text-align: center;
+        margin-bottom: 1.5rem;
     }
 
     .btn-order {
@@ -166,12 +167,25 @@
         color: #38160D;
     }
 
+    /*Story image display on medium devices and below*/
+    .story-image {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0.8rem;
+        vertical-align: middle;
+        margin-bottom: 2rem;
+    }
+
+    /*Story image display on large devices*/
+    @media (min-width: 992px) { 
     .story-image {
         max-width: 100%;
         height: auto;
         margin: 0 auto;
         padding: 0.2rem;
         vertical-align: middle;
+        }
     }
 
     .our-story-text>h2 {
