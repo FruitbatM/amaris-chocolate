@@ -42,21 +42,50 @@
 }
 */
 
-/*Hero Image - jumbotron*/
-    #jumbo {
-        background: url(../images/hero_image1.jpg);
-        height: 80vh;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
+/*Hero Image - jumbotron display on large devices*/
+        #jumbo {
+            background: url(../images/hero_image1.jpg);
+            position: relative;
+            height: 80vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+        }
+
+/*Hero Image - jumbotron display on medium devices*/
+    @media screen and (max-width: 992px) {
+        #jumbo {
+            background: url(../images/hero_image1.jpg);
+            position: relative;
+            height: 60vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+        }
     }
+
     
-    /*Add to remove the gap between jumbotron and 'Our chocolate' section.*/
+/*Hero Image - jumbotron display on small devices*/
+    @media screen and (max-width: 600px) {
+        #jumbo {
+            background: url(../images/hero_image1.jpg);
+            position: relative;
+            height: 50vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+        }
+    }
+
+
+    
+/*Add to remove the gap between jumbotron and 'Our chocolate' section.*/
     .jumbotron {
         margin-bottom: 0;
     }
-
 
     .display-5 {
         text-align: center;
@@ -147,7 +176,6 @@
         background-color:#774936;
         position: block;
         line-height: 1.2rem;
-        padding: 0.3rem 0.7rem;
         font-size: 1rem;                         
         border-radius: 0.4rem;
         text-transform: uppercase;
