@@ -55,7 +55,12 @@ As a business owner, I would like to:
 
 # Technologies
 
-- [Bootstrap] (https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+## Languages used
+- [HTML5]
+- [CSS3]
+
+## Framework Libraries and Programs
+- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
     - I used Bootstrap to create the navbar and contact form as well to make the website responsive.
 - [Favicon](https://favicon.io/favicon-converter/)
     - I used Favicon to place the bran icon on the browser's tab.
@@ -63,4 +68,8 @@ As a business owner, I would like to:
     - I used several icons from font awesome throughout the site for design features and for user experience.
 - [Google Fonts]()                             
 - [Balsamiq](https://balsamiq.com/)
+- [GitHub]()
+- [Gitpod]()
+- [Photoshop]()
+
 
