@@ -43,6 +43,7 @@
 */
 
 /*Hero Image - jumbotron display on large devices*/
+    @media screen and (min-width: 1024px) {
         #jumbo {
             background: url(../images/hero_image1.jpg);
             position: relative;
@@ -52,13 +53,14 @@
             background-repeat: no-repeat;
             width: 100%;
         }
+    }
 
 /*Hero Image - jumbotron display on medium devices*/
-    @media screen and (max-width: 992px) {
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
         #jumbo {
             background: url(../images/hero_image1.jpg);
             position: relative;
-            height: 60vh;
+            height: 65vh;
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -66,13 +68,12 @@
         }
     }
 
-    
 /*Hero Image - jumbotron display on small devices*/
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 767px) {
         #jumbo {
             background: url(../images/hero_image1.jpg);
             position: relative;
-            height: 50vh;
+            height: 55vh;
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -80,25 +81,69 @@
         }
     }
 
-
-    
-/*Add to remove the gap between jumbotron and 'Our chocolate' section.*/
+/*Remove the gap between jumbotron and 'Our chocolate' section.*/
     .jumbotron {
         margin-bottom: 0;
     }
 
-    .display-5 {
-        text-align: center;
-        margin-top: 13rem;
-        font-family: 'Merriweather Sans', sans-serif;
+/*Jumbotron text heading display on large devices*/
+    @media screen and (min-width: 1024px) {
+        .display-5 {
+            text-align: center;
+            margin-top: 17rem;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 3.5rem;
+        }
     }
 
-    #jumbo-text {
-        font-family: 'Merriweather', sans-serif;
-        text-align: center;
-        margin-top: 1rem;
-        font-weight: 300;
-        font-size: 1.1rem;
+/*Jumbotron text heading display on medium devices*/
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        .display-5 {
+            text-align: center;
+            margin-top: 25rem;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 3rem;
+        }
+    }
+    
+/*Jumbotron text heading display on small devices*/
+    @media screen and (max-width: 767px) {
+        .display-5 {
+            text-align: center;
+            margin-top: 14rem;
+            font-family: 'Merriweather Sans', sans-serif;
+            font-size: 2rem;
+        }
+    }
+ 
+/*Jumbotron sub-text display on large devices*/
+    @media screen and (min-width: 1024px) {
+        #jumbo-text {
+            text-align: center;
+            font-family: 'Merriweather', sans-serif;
+            font-weight: 300;
+            font-size: 1.3rem;
+        }
+    }
+
+/*Jumbotron sub-text display on medium devices*/
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        #jumbo-text {
+            text-align: center;
+            font-family: 'Merriweather', sans-serif;
+            font-weight: 300;
+            font-size: 1.2rem;
+        }
+    }
+
+/*Jumbotron sub-text display on small devices*/
+    @media screen and (max-width: 767px) {
+        #jumbo-text {
+            text-align: center;
+            font-family: 'Merriweather', sans-serif;
+            font-weight: 300;
+            font-size: 1.1rem;
+        }
     }
 
     /*Our Chocolate section*/
