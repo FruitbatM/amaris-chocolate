@@ -257,8 +257,9 @@
         text-shadow: 0.2rem 0.2rem #45464785;
     }
 }
+
 /*Story image display on large devices*/
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
     .story-image {
         max-width: 100%;
         height: auto;
@@ -267,6 +268,7 @@
         vertical-align: middle;
     }
 }
+
 /*Hero Image - jumbotron display on large devices*/
 @media screen and (min-width: 1024px) {
     #jumbo {
