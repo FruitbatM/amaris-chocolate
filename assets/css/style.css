@@ -12,15 +12,16 @@
     font-family: 'Merriweather Sans', sans-serif;
     color:#fafafa!important;
     font-weight: 400;
-    font-size:1.2rem;
+    font-size: 1.2rem;
     position: relative;
 }
 
-/*Not working - to check
-.navbar-toggler {
-    float: left;
+/*For tablets and below
+@media (max-width: 768px) {
+#sidebar-toggle {
     position: relative;
-    cursor: pointer;
+    float: left !important;
+    }
 }
 */
 
@@ -33,14 +34,6 @@
    display: block;
    padding: .4rem;
 }
-/*For tablets and below
-@media (max-width: 768px) {
-#sidebar-toggle {
-    position: relative;
-    float: left !important;
-    }
-}
-*/
 
 /*Hero Image - jumbotron display on large devices*/
     @media screen and (min-width: 1024px) {
@@ -168,14 +161,30 @@
         color: #5C3324;
     }
 
-    .chocolate-text-header>p {
-        font-size: 1.1rem;
-        font-family: 'Merriweather', sans-serif;
-        font-weight: 200;
-        text-align: center;
-        margin-top: 1.5rem;
-        line-height: 2rem;
-        color: #38160D;
+/*Paragraph text display on large devices*/
+    @media screen and (min-width: 1024px) {
+        .chocolate-text-header>p {
+            font-size: 1.2rem;
+            font-family: 'Merriweather', sans-serif;
+            font-weight: 200;
+            text-align: center;
+            margin-top: 1.5rem;
+            line-height: 2rem;
+            color: #38160D;
+        }
+    }
+
+/*Paragraph text display on small devices*/
+    @media screen and (max-width: 767px) {
+        .chocolate-text-header>p {
+            font-size: 1rem;
+            font-family: 'Merriweather', sans-serif;
+            font-weight: 200;
+            text-align: center;
+            margin-top: 1.5rem;
+            line-height: 2rem;
+            color: #38160D;
+        }
     }
 
     #chocolate-bar-section {
@@ -185,7 +194,6 @@
     .chocolate-card {
         border: none;
     }
-
 
     .chocolate-bar {
         vertical-align: middle;
@@ -250,14 +258,31 @@
         color: #411D13;
     }
 
-    .our-story-text>p {
-        font-size: 1.1rem;
-        font-family: 'Merriweather', sans-serif;
-        font-weight: 200;
-        text-align: center;
-        margin-top: 1.5rem;
-        line-height: 2rem;
-        color: #38160D;
+    
+/*Paragraph text display on large devices*/
+    @media screen and (min-width: 1024px) {
+    	.our-story-text>p {
+            font-size: 1.2rem;
+            font-family: 'Merriweather', sans-serif;
+            font-weight: 200;
+            text-align: center;
+            margin-top: 1.5rem;
+            line-height: 2rem;
+            color: #38160D;
+        }
+    }
+    
+    /*Paragraph text display on small devices*/
+    @media screen and (max-width: 767px) {
+        .our-story-text>p {
+            font-size: 1rem;
+            font-family: 'Merriweather', sans-serif;
+            font-weight: 200;
+            text-align: center;
+            margin-top: 1.5rem;
+            line-height: 2rem;
+            color: #38160D;
+        }
     }
 
     /*Story image display on medium devices and below*/
@@ -288,13 +313,6 @@
         color: #411D13;
     }
 
-    .our-story-text>p {
-        font-size: 1rem;
-        font-family: 'Merriweather', sans-serif;
-        font-weight: 200;
-        margin-top: 1.5rem;
-        color: #38160D;
-    }
     .text-center {
         align-items: center;
     }
@@ -371,6 +389,7 @@
         margin: auto;
     }
 
+    /*Hover effect for all buttons*/
     .btn-contact:hover, .btn-more:hover {
         background-color:#916750;
         border-color: #916750;
@@ -392,7 +411,8 @@
         font-family: 'Merriweather Sans', sans-serif;;
     }
 
-     /*setting not working - check*/
+     /*setting not working - check
     .placeholder {
         font-size: 0.8rem;
     }
+    */
