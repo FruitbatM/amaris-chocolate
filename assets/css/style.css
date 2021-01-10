@@ -2,417 +2,305 @@
 .nav-section {
     padding: 0;
 }
-
 .navbar {
-    background-color:#5C3324;
+    background-color: #5C3324;
     text-align: right;
 }
-
 .navbar-text {
     font-family: 'Merriweather Sans', sans-serif;
-    color:#fafafa!important;
+    color: #fafafa !important;
     font-weight: 400;
     font-size: 1.2rem;
     position: relative;
 }
-
-/*For tablets and below
-@media (max-width: 768px) {
-#sidebar-toggle {
+.nav-link {
+    font-family: 'Merriweather', serif;
+    color: #fafafa;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: uppercase;
+    display: block;
+    padding: .4rem;
+}
+#jumbo {
     position: relative;
-    float: left !important;
-    }
+    height: 55vh;
+    background-size: cover;
+    background: url(../images/hero_image1.jpg) no-repeat center;
+    width: 100%;
+}
+.display-5 {
+    text-align: center;
+    margin-top: 14rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    text-shadow: 0.2rem 0.2rem #45464785;
+}
+#jumbo-text {
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-shadow: 0.2rem 0.2rem #45464785;
+}
+/*Remove the gap between jumbotron and 'Our chocolate' section.*/
+.jumbotron {
+    margin-bottom: 0;
+}
+/*Our Chocolate section*/
+.chocolate-text-header > h2 {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 300;
+    color: #411D13;
+}
+.divider {
+    width: 25%;
+    border-top: 4px solid;
+    color: #5C3324;
+}
+.chocolate-text-header > p {
+    font-size: 1rem;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+    color: #38160D;
+}
+#chocolate-bar-section {
+    background-color: #F5E8E1 !important;
+}
+.chocolate-card {
+    border: none;
+}
+.chocolate-bar {
+    vertical-align: middle;
+    border-style: none;
+    min-width: 200px;
+    max-width: 75%;
+    padding: 2rem;
+}
+.card-chocolate-title {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #38160D;
+}
+.card-chocolate-subtitle {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 0.8rem;
+    color: #38160D;
+}
+.btn-more {
+    background-color: #774936;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 0.3rem 0.7rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+}
+/*Add wrapper class to position .btn-order to center*/
+.wrapper {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.btn-order {
+    background-color: #774936;
+    position: relative;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    margin: auto;
+}
+/*Our Story section*/
+.our-story-main {
+    margin-top: 4rem;
+}
+.our-story-text > h2 {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 300;
+    color: #411D13;
+}
+.our-story-text > p {
+    font-size: 1rem;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+    color: #38160D;
+}
+/*Story image display on medium devices and below*/
+.story-image {
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+    vertical-align: middle;
+    margin: 0 auto 2rem;
+}
+.our-story-text > h2 {
+    padding-top: 2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    color: #411D13;
+}
+.text-center {
+    align-items: center;
+}
+/*Footer*/
+.footer-section {
+    background-color: #5C3324;
+    color: #fafafa;
+    font-size: 0.9rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+.footer-email > a {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 200;
+    margin-left: 0.5rem;
+}
+.footer-phone > a {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 200;
+    margin-left: 0.5rem;
+}
+.social-heading {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 200;
+}
+.social-media i {
+    color: #fafafa;
+    font-size: 1.2rem;
+}
+/*Contact Form*/
+.contact-section {
+    padding: 90px 0;
+}
+.contact-heading > h2 {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    color: #411D13;
+}
+.btn-contact {
+    background-color: #774936;
+    border-color: #774936;
+    display: block;
+    text-align: center;
+    line-height: 1rem;
+    padding: 0.7rem 1.3rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    margin: auto;
+}
+/*Hover effect for all buttons*/
+.btn-contact:hover, .btn-more:hover {
+    background-color: #916750;
+    border-color: #916750;
+}
+/*Background color for 'our chocolate' and 'our story' sections on landing pge*/
+.bg-light {
+    background-color: #F5E8E1 !important;
+    width: 100%;
+}
+.contact-required {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+.form-row {
+    font-family: 'Merriweather Sans', sans-serif;;
+}
+/*setting not working - check
+.placeholder {
+   font-size: 0.8rem;
 }
 */
-
-.nav-link {
-   font-family: 'Merriweather', serif;
-   color: #fafafa;
-   font-weight: 400;
-   font-size: 1rem;
-   text-transform: uppercase;
-   display: block;
-   padding: .4rem;
+/*Hero Image - jumbotron display on ipad devices*/
+@media screen and (min-width: 764px) {
+    #jumbo {
+        height: 65vh;
+    }
+    #jumbo-text {
+        text-align: center;
+        font-family: 'Merriweather', sans-serif;
+        font-weight: 300;
+        font-size: 1.2rem;
+        text-shadow: 0.2rem 0.2rem #45464785;
+    }
+    .display-5 {
+        text-align: center;
+        margin-top: 25rem;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 3rem;
+        text-shadow: 0.2rem 0.2rem #45464785;
+    }
 }
-
-/*Hero Image - jumbotron display on large devices*/
-    @media screen and (min-width: 1024px) {
-        #jumbo {
-            background: url(../images/hero_image1.jpg);
-            position: relative;
-            height: 80vh;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            width: 100%;
-        }
-    }
-
-/*Hero Image - jumbotron display on medium devices*/
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
-        #jumbo {
-            background: url(../images/hero_image1.jpg);
-            position: relative;
-            height: 65vh;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            width: 100%;
-        }
-    }
-
-/*Hero Image - jumbotron display on small devices*/
-    @media screen and (max-width: 767px) {
-        #jumbo {
-            background: url(../images/hero_image1.jpg);
-            position: relative;
-            height: 55vh;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            width: 100%;
-        }
-    }
-
-/*Jumbotron text heading display on large devices*/
-    @media screen and (min-width: 1024px) {
-        .display-5 {
-            text-align: center;
-            margin-top: 17rem;
-            font-family: 'Merriweather Sans', sans-serif;
-            font-size: 3.5rem;
-            text-shadow: 0.2rem 0.2rem #45464785;
-        }
-    }
-
-/*Jumbotron text heading display on medium devices*/
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
-        .display-5 {
-            text-align: center;
-            margin-top: 25rem;
-            font-family: 'Merriweather Sans', sans-serif;
-            font-size: 3rem;
-            text-shadow: 0.2rem 0.2rem #45464785;
-        }
-    }
-    
-/*Jumbotron text heading display on small devices*/
-    @media screen and (max-width: 767px) {
-        .display-5 {
-            text-align: center;
-            margin-top: 14rem;
-            font-family: 'Merriweather Sans', sans-serif;
-            font-size: 2rem;
-            text-shadow: 0.2rem 0.2rem #45464785;
-        }
-    }
- 
-/*Jumbotron sub-text display on large devices*/
-    @media screen and (min-width: 1024px) {
-        #jumbo-text {
-            text-align: center;
-            font-family: 'Merriweather', sans-serif;
-            font-weight: 300;
-            font-size: 1.3rem;
-            text-shadow: 0.2rem 0.2rem #45464785;
-        }
-    }
-
-/*Jumbotron sub-text display on medium devices*/
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
-        #jumbo-text {
-            text-align: center;
-            font-family: 'Merriweather', sans-serif;
-            font-weight: 300;
-            font-size: 1.2rem;
-            text-shadow: 0.2rem 0.2rem #45464785;
-        }
-    }
-
-/*Jumbotron sub-text display on small devices*/
-    @media screen and (max-width: 767px) {
-        #jumbo-text {
-            text-align: center;
-            font-family: 'Merriweather', sans-serif;
-            font-weight: 300;
-            font-size: 1.1rem;
-            text-shadow: 0.2rem 0.2rem #45464785;
-        }
-    }
-
-/*Remove the gap between jumbotron and 'Our chocolate' section.*/
-    .jumbotron {
-        margin-bottom: 0;
-    }
-
-/*Our Chocolate section*/
-    .chocolate-text-header>h2 {
-        text-align: center;
-        padding-top: 2rem;
-        font-family: 'Merriweather Sans', sans-serif;
-        font-size: 2.1rem;
-        font-weight: 300;
-        color: #411D13;
-    }
-
-    .divider {
-        width: 25%;
-        border-top: 4px solid;
-        color: #5C3324;
-    }
-
-/*Paragraph text display on large devices*/
-    @media screen and (min-width: 1024px) {
-        .chocolate-text-header>p {
-            font-size: 1.2rem;
-            font-family: 'Merriweather', sans-serif;
-            font-weight: 200;
-            text-align: center;
-            margin-top: 1.5rem;
-            line-height: 2rem;
-            color: #38160D;
-        }
-    }
-
-/*Paragraph text display on small devices*/
-    @media screen and (max-width: 767px) {
-        .chocolate-text-header>p {
-            font-size: 1rem;
-            font-family: 'Merriweather', sans-serif;
-            font-weight: 200;
-            text-align: center;
-            margin-top: 1.5rem;
-            line-height: 2rem;
-            color: #38160D;
-        }
-    }
-
-    #chocolate-bar-section {
-        background-color: #F5E8E1!important;
-    }
-
-    .chocolate-card {
-        border: none;
-    }
-
-    .chocolate-bar {
-        vertical-align: middle;
-        border-style: none;
-        min-width: 200px;
-        max-width: 75%;
-        padding: 2rem;
-    }
-
-    .card-chocolate-title {
-        font-family: 'Merriweather', sans-serif;
-        font-size: 0.9rem;
-        font-weight: 400;
-        color: #38160D;
-    }
-
-    .card-chocolate-subtitle {
-        font-family: 'Merriweather', sans-serif;
-        font-size: 0.8rem;
-        color: #38160D;
-    }
-
-    .btn-more {
-        background-color:#774936;
-        display: inline-block;
-        text-align: center;
-        line-height: 1.2rem;
-        padding: 0.3rem 0.7rem;
-        font-size: 1rem;
-        border-radius: 0.4rem;
-        text-transform: uppercase;
-    }
-
-    /*Add wrapper class to position .btn-order to center*/
-    .wrapper {
-        text-align: center;
-        margin-bottom: 1.5rem;
-    }
-
-    .btn-order {
-        background-color:#774936;
-        position: block;
-        line-height: 1.2rem;
-        font-size: 1rem;                         
-        border-radius: 0.4rem;
-        text-transform: uppercase;
-        margin: auto;
-    }
-
-
-    /*Our Story section*/
-    .our-story-main{
-        margin-top: 4rem;
-    }
-
-    .our-story-text>h2 {
-        text-align: center;
-        padding-top: 2rem;
-        font-family: 'Merriweather Sans', sans-serif;
-        font-size: 2.1rem;
-        font-weight: 300;
-        color: #411D13;
-    }
-
-    
-/*Paragraph text display on large devices*/
-    @media screen and (min-width: 1024px) {
-    	.our-story-text>p {
-            font-size: 1.2rem;
-            font-family: 'Merriweather', sans-serif;
-            font-weight: 200;
-            text-align: center;
-            margin-top: 1.5rem;
-            line-height: 2rem;
-            color: #38160D;
-        }
-    }
-    
-    /*Paragraph text display on small devices*/
-    @media screen and (max-width: 767px) {
-        .our-story-text>p {
-            font-size: 1rem;
-            font-family: 'Merriweather', sans-serif;
-            font-weight: 200;
-            text-align: center;
-            margin-top: 1.5rem;
-            line-height: 2rem;
-            color: #38160D;
-        }
-    }
-
-    /*Story image display on medium devices and below*/
-    .story-image {
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
-        padding: 1rem;
-        vertical-align: middle;
-        margin-bottom: 2rem;
-    }
-
-    /*Story image display on large devices*/
-    @media (min-width: 992px) { 
+/*Story image display on large devices*/
+@media (min-width: 992px) {
     .story-image {
         max-width: 100%;
         height: auto;
         margin: 0 auto;
         padding: 0.2rem;
         vertical-align: middle;
-        }
     }
-
-    .our-story-text>h2 {
-        padding-top: 2rem;
-        font-family: 'Merriweather Sans', sans-serif;
-        font-weight: 300;
-        color: #411D13;
+}
+/*Hero Image - jumbotron display on large devices*/
+@media screen and (min-width: 1024px) {
+    #jumbo {
+        height: 80vh;
     }
-
-    .text-center {
-        align-items: center;
-    }
-
-    container, 
-    container-fluid,
-    row {
-        margin: 0;
-        padding: 0;
-    }
-
-    /*Footer*/
-    .footer-section {
-        background-color: #5C3324;
-        color: #fafafa;
-        font-size: 0.9rem;
-        font-family: 'Merriweather Sans', sans-serif;
-        font-weight: 200;
-        text-align: center;
-    }
-
-    .footer-email>a {
-        color: #fafafa;
-        text-decoration: none;
-        font-size: 0.9rem;
-        font-family: 'Merriweather Sans', sans-serif;
-        font-weight: 200;
-        margin-left: 0.5rem;
-    }
-    .footer-phone>a {
-        color: #fafafa;
-        text-decoration: none;
-        font-size: 0.9rem;
-        font-family: 'Merriweather Sans', sans-serif;
-        font-weight: 200;
-        margin-left: 0.5rem;
-    }
-
-    .social-heading {
-        text-transform: uppercase;
-        font-size: 0.9rem;
-        font-family: 'Merriweather Sans', sans-serif;
-        font-weight: 200;
-    }
-
-    .social-media i {
-        color: #fafafa;
+    .our-story-text > p {
         font-size: 1.2rem;
-    }
-
-    /*Contact Form*/
-
-    .contact-section {
-        padding: 90px 0;
-    }
-    .contact-heading>h2 {
-        text-align: center;
-        padding-top: 2rem;
-        font-family: 'Merriweather Sans', sans-serif;
-        font-weight: 400;
-        color: #411D13;
-    }
-
-    .btn-contact {
-        background-color:#774936;
-        border-color: #774936;
-        display: block;
-        text-align: center;
-        line-height: 1rem;
-        padding: 0.7rem 1.3rem;
-        font-size: 1rem;
-        border-radius: 0.4rem;
-        text-transform: uppercase;
-        margin: auto;
-    }
-
-    /*Hover effect for all buttons*/
-    .btn-contact:hover, .btn-more:hover {
-        background-color:#916750;
-        border-color: #916750;
-    }
-
-    /*Background color for 'our chocolate' and 'our story' sections on landing pge*/
-    .bg-light {
-        background-color: #F5E8E1!important;
-        width: 100%;
-    }
-
-
-    .contact-required {
-        font-size: 0.9rem;
+        font-family: 'Merriweather', sans-serif;
         font-weight: 200;
+        text-align: center;
+        margin-top: 1.5rem;
+        line-height: 2rem;
+        color: #38160D;
     }
-
-    .form-row {
-        font-family: 'Merriweather Sans', sans-serif;;
+    .chocolate-text-header > p {
+        font-size: 1.2rem;
+        font-family: 'Merriweather', sans-serif;
+        font-weight: 200;
+        text-align: center;
+        margin-top: 1.5rem;
+        line-height: 2rem;
+        color: #38160D;
     }
-
-     /*setting not working - check
-    .placeholder {
-        font-size: 0.8rem;
+    #jumbo-text {
+        text-align: center;
+        font-family: 'Merriweather', sans-serif;
+        font-weight: 300;
+        font-size: 1.3rem;
+        text-shadow: 0.2rem 0.2rem #45464785;
     }
-    */
+    .display-5 {
+        text-align: center;
+        margin-top: 17rem;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 3.5rem;
+        text-shadow: 0.2rem 0.2rem #45464785;
+    }
+}
