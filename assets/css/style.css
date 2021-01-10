@@ -81,11 +81,6 @@
         }
     }
 
-/*Remove the gap between jumbotron and 'Our chocolate' section.*/
-    .jumbotron {
-        margin-bottom: 0;
-    }
-
 /*Jumbotron text heading display on large devices*/
     @media screen and (min-width: 1024px) {
         .display-5 {
@@ -93,6 +88,7 @@
             margin-top: 17rem;
             font-family: 'Merriweather Sans', sans-serif;
             font-size: 3.5rem;
+            text-shadow: 0.2rem 0.2rem #45464785;
         }
     }
 
@@ -103,6 +99,7 @@
             margin-top: 25rem;
             font-family: 'Merriweather Sans', sans-serif;
             font-size: 3rem;
+            text-shadow: 0.2rem 0.2rem #45464785;
         }
     }
     
@@ -113,6 +110,7 @@
             margin-top: 14rem;
             font-family: 'Merriweather Sans', sans-serif;
             font-size: 2rem;
+            text-shadow: 0.2rem 0.2rem #45464785;
         }
     }
  
@@ -123,6 +121,7 @@
             font-family: 'Merriweather', sans-serif;
             font-weight: 300;
             font-size: 1.3rem;
+            text-shadow: 0.2rem 0.2rem #45464785;
         }
     }
 
@@ -133,6 +132,7 @@
             font-family: 'Merriweather', sans-serif;
             font-weight: 300;
             font-size: 1.2rem;
+            text-shadow: 0.2rem 0.2rem #45464785;
         }
     }
 
@@ -143,14 +143,21 @@
             font-family: 'Merriweather', sans-serif;
             font-weight: 300;
             font-size: 1.1rem;
+            text-shadow: 0.2rem 0.2rem #45464785;
         }
     }
 
-    /*Our Chocolate section*/
+/*Remove the gap between jumbotron and 'Our chocolate' section.*/
+    .jumbotron {
+        margin-bottom: 0;
+    }
+
+/*Our Chocolate section*/
     .chocolate-text-header>h2 {
         text-align: center;
         padding-top: 2rem;
         font-family: 'Merriweather Sans', sans-serif;
+        font-size: 2.1rem;
         font-weight: 300;
         color: #411D13;
     }
@@ -162,11 +169,12 @@
     }
 
     .chocolate-text-header>p {
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-family: 'Merriweather', sans-serif;
         font-weight: 200;
         text-align: center;
         margin-top: 1.5rem;
+        line-height: 2rem;
         color: #38160D;
     }
 
@@ -229,25 +237,26 @@
 
 
     /*Our Story section*/
-
     .our-story-main{
         margin-top: 4rem;
     }
 
-    .story-text-header>h2 {
+    .our-story-text>h2 {
         text-align: center;
         padding-top: 2rem;
         font-family: 'Merriweather Sans', sans-serif;
+        font-size: 2.1rem;
         font-weight: 300;
         color: #411D13;
     }
 
-    .story-text-header>p {
-        font-size: 1rem;
+    .our-story-text>p {
+        font-size: 1.1rem;
         font-family: 'Merriweather', sans-serif;
         font-weight: 200;
         text-align: center;
         margin-top: 1.5rem;
+        line-height: 2rem;
         color: #38160D;
     }
 
@@ -351,6 +360,7 @@
 
     .btn-contact {
         background-color:#774936;
+        border-color: #774936;
         display: block;
         text-align: center;
         line-height: 1rem;
@@ -361,6 +371,12 @@
         margin: auto;
     }
 
+    .btn-contact:hover, .btn-more:hover {
+        background-color:#916750;
+        border-color: #916750;
+    }
+
+    /*Background color for 'our chocolate' and 'our story' sections on landing pge*/
     .bg-light {
         background-color: #F5E8E1!important;
         width: 100%;
