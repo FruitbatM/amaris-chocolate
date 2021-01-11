@@ -17,7 +17,7 @@
     font-family: 'Merriweather', serif;
     color: #fafafa;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     display: block;
     padding: .4rem;
@@ -47,6 +47,7 @@
 .jumbotron {
     margin-bottom: 0;
 }
+
 /*Our Chocolate section*/
 .chocolate-text-header > h2 {
     text-align: center;
@@ -153,9 +154,13 @@
     font-weight: 300;
     color: #411D13;
 }
+
+/*Centring 'our story' image on the landing page*/
 .text-center {
     align-items: center;
 }
+
+
 /*Footer*/
 .footer-section {
     background-color: #5C3324;
@@ -237,7 +242,14 @@
 }
 */
 
-/*Hero Image - jumbotron display on ipad devices*/
+.container-fluid,
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Hero Image - jumbotron display on iPad devices*/
 @media screen and (min-width: 764px) {
     #jumbo {
         height: 65vh;
