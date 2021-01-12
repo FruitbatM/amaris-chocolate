@@ -319,7 +319,10 @@
 }
 
 
-/*Badge placement*/
+/*Badge placement
+code with modification was taken from w3schools.com: 
+https://www.w3schools.com/howto/howto_css_notification_button.asp*/
+
 .notification {
     position: inherit;
     display: inline-block;
