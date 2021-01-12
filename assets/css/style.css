@@ -80,9 +80,7 @@
 .chocolate-bar {
     vertical-align: middle;
     border-style: none;
-    min-width: 200px;
-    max-width: 75%;
-    padding: 2rem;
+    max-width: 55%;
 }
 .card-chocolate-title {
     font-family: 'Merriweather', sans-serif;
@@ -318,4 +316,21 @@
         font-size: 3.5rem;
         text-shadow: 0.2rem 0.2rem #45464785;
     }
+}
+
+
+/*Badge placement*/
+.notification {
+    position: relative;
+    display: inline-block;
+}
+
+.badge {
+    position: absolute;
+    right: -10px;
+    top: 0.1rem;
+    background:red;
+    text-align: center;
+    padding:5px 10px;
+    font-size:0.7rem;
 }
