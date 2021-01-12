@@ -321,16 +321,16 @@
 
 /*Badge placement*/
 .notification {
-    position: relative;
+    position: inherit;
     display: inline-block;
 }
 
 .badge {
     position: absolute;
-    right: -10px;
-    top: 0.1rem;
-    background:red;
+    right: 2rem;
+    top: 0.4rem;
+    background: #b70f39;
     text-align: center;
-    padding:5px 10px;
+    padding:0.5rem 0.8rem;
     font-size:0.7rem;
 }
