@@ -117,6 +117,16 @@
     text-transform: uppercase;
     margin: auto;
 }
+
+/*Our Chocolate section - separate page*/
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
 /*Our Story section*/
 .our-story-main {
     margin-top: 4rem;
@@ -242,8 +252,8 @@
 
 .container-fluid,
 .row {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 
