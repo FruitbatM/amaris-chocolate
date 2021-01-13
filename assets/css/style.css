@@ -124,9 +124,6 @@
     height: auto;
 }
 
-
-
-
 /*Our Story section*/
 .our-story-main {
     margin-top: 4rem;
@@ -256,6 +253,7 @@
     padding: 0 auto;
 }
 
+/*Media Queries*/
 
 /*Hero Image - jumbotron display on iPad devices*/
 @media screen and (min-width: 764px) {
@@ -347,3 +345,37 @@ https://www.w3schools.com/howto/howto_css_notification_button.asp*/
     padding:0.5rem 0.8rem;
     font-size:0.7rem;
 }
+
+/*Back to top arrow - code taken from: */
+#arrow_2top {
+    display: none;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 6rem; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #774936; /* Set a background color */
+    color: #fafafa;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 50%; /* Rounded */
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.2rem; /* Increase font size */
+}
+
+#arrow_2top:hover {
+    background-color:#916750;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+/*
+#arrow_2top:hover i {
+    color: #fff;
+    top: 5px;
+}
+*/
