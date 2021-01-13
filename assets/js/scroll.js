@@ -1,4 +1,5 @@
-// ====Back to Top Arrow - code taken from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp ====  
+// Back to Top Arrow - code with small modification taken from: 
+https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 
 mybutton = document.getElementById("arrow_2top");
 
