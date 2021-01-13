@@ -367,15 +367,3 @@ https://www.w3schools.com/howto/howto_css_notification_button.asp*/
 #arrow_2top:hover {
     background-color:#916750;
 }
-
-#myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
-}
-
-
-/*
-#arrow_2top:hover i {
-    color: #fff;
-    top: 5px;
-}
-*/
