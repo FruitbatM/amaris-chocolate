@@ -42,7 +42,7 @@
   right: 0;
   bottom: 0;
   background: #F5E8E1 ;
-  height: 3px;
+  height: 2.5px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
   -webkit-transition-property: transform;
@@ -157,9 +157,20 @@
 }
 
 /*Our Chocolate section - separate page*/
-.img-fluid{
-    max-width: 100%;
+.cacao-pods{
+    width: 640px;
     height: auto;
+    padding: 2.5rem;
+}
+
+.our-chocolate-para-1 {
+    font-size: 1rem;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+    color: #38160D;
 }
 
 /*Our Story section*/
@@ -187,7 +198,7 @@
 .story-image {
     max-width: 100%;
     height: auto;
-    padding: 1rem;
+    padding: 0.6rem;
     vertical-align: middle;
     margin: 0 auto 2rem;
 }
@@ -362,8 +373,16 @@
         font-size: 3.5rem;
         text-shadow: 0.2rem 0.2rem #45464785;
     }
+    .our-chocolate-para-1 {
+        font-size: 1.2rem;
+        font-family: 'Merriweather', sans-serif;
+        font-weight: 200;
+        text-align: center;
+        margin-top: 1.5rem;
+        line-height: 2rem;
+        color: #38160D;
+    }
 }
-
 
 /*Badge placement
 code with modification was taken from w3schools.com: 
