@@ -26,9 +26,10 @@
     position: relative;
     height: 60vh;
     background-size: cover;
-    background: url(../images/hero_image1.jpg) no-repeat center;
+    background: url(../images/dark-chocolate-organic.jpg) no-repeat center;
     width: 100%;
 }
+
 .display-5 {
     text-align: center;
     margin-top: 14rem;
@@ -359,9 +360,9 @@ https://www.w3schools.com/howto/howto_css_notification_button.asp*/
     color: #fafafa;
     cursor: pointer; /* Add a mouse pointer on hover */
     border-radius: 50%; /* Rounded */
-    width: 2rem;
-    height: 2rem;
-    font-size: 1.2rem; /* Increase font size */
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.3rem; /* Increase font (arrow) size */
 }
 
 #arrow_2top:hover {
