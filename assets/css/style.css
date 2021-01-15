@@ -157,13 +157,15 @@
 }
 
 /*Our Chocolate section - separate page*/
-.cacao-pods{
-    width: 640px;
+
+.img-fluid{
+    max-width: 100%;
     height: auto;
-    padding: 2.5rem;
+    padding: 0.6rem;
+    vertical-align: middle;
 }
 
-.our-chocolate-para-1 {
+.our-chocolate-para {
     font-size: 1rem;
     font-family: 'Merriweather', sans-serif;
     font-weight: 200;
@@ -172,6 +174,12 @@
     line-height: 2rem;
     color: #38160D;
 }
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /*Our Story section*/
 .our-story-main {
@@ -373,7 +381,19 @@
         font-size: 3.5rem;
         text-shadow: 0.2rem 0.2rem #45464785;
     }
-    .our-chocolate-para-1 {
+    .chocolate-head {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #38160D;
+    background-color: #fafafa;
+    }
+
+    .transbox {
+        border: no border;
+        background-color: #fafafa;
+    }
+
+    .our-chocolate-para {
         font-size: 1.2rem;
         font-family: 'Merriweather', sans-serif;
         font-weight: 200;
