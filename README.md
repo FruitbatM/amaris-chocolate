@@ -57,9 +57,10 @@ As a business owner, I would like to:
 
 # Technologies
 
-## Languages used
+## Languages
 - [HTML5]
 - [CSS3]
+- [JavaScript]
 
 ## Framework Libraries and Programs
 - [Bootstrap v.4.5.](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
@@ -70,21 +71,33 @@ As a business owner, I would like to:
     - I used several icons from font awesome throughout the site for design features and for user experience.
 - [Google Fonts]()                             
 - [Balsamiq](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes for the website.
+- [CSS-Tricks](https://css-tricks.com/)
+    - 
 - [GitHub]()
 - [Gitpod]()
-- [Photoshop]()
+- [Git]()
+- [Adobe Photoshop Express](https://photoshop.adobe.com/)
+    - Used for resizing images
 - [Chrome Developer Tools]()
 - [Can I Use](https://caniuse.com/)
-- [MP4COMPRESS](https://www.mp4compress.com/)
+- [TinyPNG](https://tinypng.com/)
+    - I used TinyPNG for compressing images while preserving transparency
 - [Am I responsive]()
-- [Pexels](https://www.pexels.com/) - video
+- [Shutterstock]()
+    - Shutterstock was used to download the images for the site.
+- [Unsplash]()
+    - Unsplash was used to download the images for the site.
+- [Flickr]()
+- [Flaticon](https://www.flaticon.com/)
+    - Flaticon was used to download icons for the site.
 
 
-Shutterstock was used to download images for the site.
-Unsplash was used to download images for the site.
+# Testing
 
+# Deployment
 
-
+# Credits
 
 
 
