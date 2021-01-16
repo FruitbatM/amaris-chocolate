@@ -95,6 +95,7 @@
     font-weight: 300;
     color: #411D13;
 }
+
 .divider {
     width: 25%;
     border-top: 4px solid;
@@ -175,11 +176,20 @@
     color: #38160D;
 }
 
-video {
-    max-width: 100%;
-    height: auto;
+.cert-icons {
+    list-style: none;
+    display: inline-block;
+    margin: 1.2rem 2rem 1rem 2rem;
+    padding-right: 1.5rem;
 }
 
+.cert-icons > span {
+    display: block;
+}
+
+.cert-image {
+    padding-bottom: 0.2rem;
+}
 
 /*Our Story section*/
 .our-story-main {
@@ -202,6 +212,7 @@ video {
     line-height: 2rem;
     color: #38160D;
 }
+
 /*Story image display on medium devices and below*/
 .story-image {
     max-width: 100%;
