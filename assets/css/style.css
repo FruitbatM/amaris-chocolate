@@ -293,7 +293,7 @@
     margin: auto;
 }
 /*Hover effect for all buttons*/
-.btn-contact:hover, .btn-more:hover {
+.btn-contact:hover, .btn-more:hover, .btn-order:hover {
     background-color: #916750;
     border-color: #916750;
 }
