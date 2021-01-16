@@ -74,6 +74,8 @@ As a business owner, I would like to:
     - Balsamiq was used to create the wireframes for the website.
 - [CSS-Tricks](https://css-tricks.com/)
     - 
+- [W3School](https://www.w3schools.com/)
+    - 
 - [GitHub]()
 - [Gitpod]()
 - [Git]()
@@ -81,7 +83,7 @@ As a business owner, I would like to:
     - Used for resizing images
 - [Chrome Developer Tools]()
 - [Can I Use](https://caniuse.com/)
-- [TinyPNG](https://tinypng.com/)
+- [TinyJPG](https://tinyjpg.com/)
     - I used TinyPNG for compressing images while preserving transparency
 - [Am I responsive]()
 - [Shutterstock]()
