@@ -1,11 +1,8 @@
 /*Navbar*/
-
-/*Smaller logo size needed for iPhone5 because navbar-toggler-icon moves to the next line*/
 .logo {
     width: 60px;
     height: 60px;
 }
-
 .nav-section {
     padding: 0;
 }
@@ -68,7 +65,7 @@
 
 #jumbo {
     position: relative;
-    min-height: 65vh;
+    min-height: 70vh;
     background-size: cover;
     background: url(../images/dark-chocolate-organic.jpg) no-repeat center;
     width: 100%;
@@ -342,7 +339,9 @@
     width: 60px;
     height: 60px;
     }
-
+    #jumbo {
+    min-height: 75vh;
+    }
     #jumbo-text {
         text-align: center;
         font-family: 'Merriweather', sans-serif;
@@ -365,6 +364,10 @@
     width: 60px;
     height: 60px;
     }
+    #jumbo {
+    min-height: 80vh;
+    }
+
     #jumbo-text {
         text-align: center;
         font-family: 'Merriweather', sans-serif;
@@ -441,9 +444,6 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
 }
 
 
-
-
-
 /*Badge placement
 code with modification was taken from w3schools.com: https://www.w3schools.com/howto/howto_css_notification_button.asp*/
 
@@ -451,7 +451,6 @@ code with modification was taken from w3schools.com: https://www.w3schools.com/h
     position: inherit;
     display: inline-block;
 }
-
 .badge {
     position: absolute;
     right: 2rem;
