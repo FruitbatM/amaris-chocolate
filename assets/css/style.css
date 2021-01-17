@@ -1,4 +1,11 @@
 /*Navbar*/
+
+/*Smaller logo size needed for iPhone5 because navbar-toggler-icon moves to the next line*/
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
 .nav-section {
     padding: 0;
 }
@@ -331,6 +338,11 @@
 
 /*Hero Image - jumbotron display on iPad devices*/
 @media screen and (min-width: 764px) {
+    .logo {
+    width: 60px;
+    height: 60px;
+    }
+
     #jumbo-text {
         text-align: center;
         font-family: 'Merriweather', sans-serif;
@@ -349,6 +361,10 @@
 
 /*Display on large devices*/
 @media screen and (min-width: 1024px) {
+    .logo {
+    width: 60px;
+    height: 60px;
+    }
     #jumbo-text {
         text-align: center;
         font-family: 'Merriweather', sans-serif;
@@ -406,6 +422,27 @@
         vertical-align: middle;
     }
 }
+
+/* iPhone 5 only (portrait mode)
+resource: https://coderwall.com/p/mwvbea/media-queries-only-for-the-iphone-5-part-i*/ 
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait) {
+    .logo {
+    width: 50px;
+    height: 50px;
+    }
+    .navbar-brand {
+        margin-left: 0.3rem !important;
+    }
+    .navbar-text {
+        margin-left: 0.3rem !important;
+    }
+}
+
+
+
+
 
 /*Badge placement
 code with modification was taken from w3schools.com: https://www.w3schools.com/howto/howto_css_notification_button.asp*/

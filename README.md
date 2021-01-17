@@ -1,6 +1,9 @@
 # Amaris Chocolate website
 
 ## Milestone Project 1
+
+
+
 One or two paragraphs providing an overview of your project. Sales pitch.
 
 # Table of Contents
