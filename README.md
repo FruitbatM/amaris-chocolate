@@ -1,13 +1,22 @@
 # Amaris Chocolate website
 
 ## Milestone Project 1
+This is a website for Amaris Chocolate, an existing small run company which 
+produces handcrafted bean to to bar dark chocolate with high percentage of cocoa parts.
+The cocoa beans and all ingredients they use are of an organic origin.
 
+The main goal of the website is to promote and build the brand awareness and expand the existing market audience and to eventually increase the sales.
 
+Amaris Chocolate website was created as a Milestone Project 1 as a part of **Diploma in Full Stack Software Development** with **Code Institute**.
 
-One or two paragraphs providing an overview of your project. Sales pitch.
+Responsive Mockup
+<h3 align="center"><img src="assets/images/readme_images/Am I responsive_screenshot.jpg"></h2>
+
+## Live project
+- [View the live project here](https://fruitbatm.github.io/amaris-chocolate/)
 
 # Table of Contents
-1. [User Experience] (#user-experience)
+1. [User Experience](#user-experience)
     - Goals
     - User Stories
         - Visitor Stories
