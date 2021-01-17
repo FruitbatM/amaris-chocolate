@@ -61,7 +61,7 @@
 
 #jumbo {
     position: relative;
-    height: 60vh;
+    min-height: 65vh;
     background-size: cover;
     background: url(../images/dark-chocolate-organic.jpg) no-repeat center;
     width: 100%;
@@ -71,14 +71,14 @@
     text-align: center;
     margin-top: 14rem;
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-shadow: 0.2rem 0.2rem #45464785;
 }
 #jumbo-text {
     text-align: center;
     font-family: 'Merriweather', sans-serif;
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-shadow: 0.2rem 0.2rem #45464785;
 }
 /*Remove the gap between jumbotron and 'Our chocolate' section.*/
@@ -325,9 +325,6 @@
 
 /*Hero Image - jumbotron display on iPad devices*/
 @media screen and (min-width: 764px) {
-    #jumbo {
-        height: 65vh;
-    }
     #jumbo-text {
         text-align: center;
         font-family: 'Merriweather', sans-serif;
@@ -357,9 +354,6 @@
 
 /*Hero Image - jumbotron display on large devices*/
 @media screen and (min-width: 1024px) {
-    #jumbo {
-        height: 80vh;
-    }
     .our-story-text > p {
         font-size: 1.2rem;
         font-family: 'Merriweather', sans-serif;
