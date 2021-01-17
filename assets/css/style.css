@@ -87,6 +87,12 @@
 }
 
 /*Our Chocolate section*/
+
+.transbox {
+    border: none;
+    background-color: #fafafa;
+}
+
 .chocolate-text-header > h2 {
     text-align: center;
     padding-top: 2rem;
@@ -381,11 +387,6 @@
     color: #38160D;
     text-shadow: 0.12rem 0.12rem #69696969;
     padding-bottom: 2.2rem;
-    }
-
-    .transbox {
-        border: none;
-        background-color: #fafafa;
     }
 
     .our-chocolate-para {
