@@ -318,7 +318,7 @@
 .container-fluid,
 .row {
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
 }
 
 /*Media Queries*/
@@ -341,19 +341,22 @@
     }
 }
 
-/*Story image display on large devices*/
-@media (min-width: 1024px) {
-    .story-image {
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
-        padding: 0.2rem;
-        vertical-align: middle;
-    }
-}
-
-/*Hero Image - jumbotron display on large devices*/
+/*Display on large devices*/
 @media screen and (min-width: 1024px) {
+    #jumbo-text {
+        text-align: center;
+        font-family: 'Merriweather', sans-serif;
+        font-weight: 300;
+        font-size: 1.3rem;
+        text-shadow: 0.2rem 0.2rem #45464785;
+    }
+    .display-5 {
+        text-align: center;
+        margin-top: 17rem;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 3.5rem;
+        text-shadow: 0.2rem 0.2rem #45464785;
+    }
     .our-story-text > p {
         font-size: 1.2rem;
         font-family: 'Merriweather', sans-serif;
@@ -372,30 +375,16 @@
         line-height: 2rem;
         color: #38160D;
     }
-    #jumbo-text {
-        text-align: center;
-        font-family: 'Merriweather', sans-serif;
-        font-weight: 300;
-        font-size: 1.3rem;
-        text-shadow: 0.2rem 0.2rem #45464785;
-    }
-    .display-5 {
-        text-align: center;
-        margin-top: 17rem;
-        font-family: 'Merriweather Sans', sans-serif;
-        font-size: 3.5rem;
-        text-shadow: 0.2rem 0.2rem #45464785;
-    }
     .chocolate-head {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 2.4rem;
     color: #38160D;
-    background-color: #fafafa;
     text-shadow: 0.12rem 0.12rem #69696969;
+    padding-bottom: 2.2rem;
     }
 
     .transbox {
-        border: no border;
+        border: none;
         background-color: #fafafa;
     }
 
@@ -408,11 +397,17 @@
         line-height: 2rem;
         color: #38160D;
     }
+    .story-image {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0.2rem;
+        vertical-align: middle;
+    }
 }
 
 /*Badge placement
-code with modification was taken from w3schools.com: 
-https://www.w3schools.com/howto/howto_css_notification_button.asp*/
+code with modification was taken from w3schools.com: https://www.w3schools.com/howto/howto_css_notification_button.asp*/
 
 .notification {
     position: inherit;
