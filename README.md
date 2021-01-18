@@ -1,21 +1,20 @@
 # Amaris Chocolate website
 
 ## Milestone Project 1
-This is a website for Amaris Chocolate, an existing small run company which 
-produces handcrafted bean to to bar dark chocolate with high percentage of cocoa parts.
-The cocoa beans and all ingredients they use are of an organic origin.
+This is a website for Amaris Chocolate, an existing small producer of handcrafted bean to to bar dark chocolates from Croatia.
+The chocolates are made with the high percentage of cocoa parts (70% or more). Bean to Bar production is a specific method of 
+crafting practiced by chocolate makers that are involved at every stage of the process that the cacao bean goes through.
 
-The main goal of the website is to promote and build the brand awareness and expand the existing market audience and to eventually increase the sales.
+The main goal of the website is to build and promote the brand awareness, expand the existing market and to increase the sales.
 
 Amaris Chocolate website was created as a Milestone Project 1 as a part of **Diploma in Full Stack Software Development** with **Code Institute**.
 
-Responsive Mockup
 <h3 align="center"><img src="assets/images/readme_images/Am I responsive_screenshot.jpg"></h2>
 
-Image produced from [Am I responsive](http://ami.responsivedesign.is/)
+Image produced by [Am I responsive](http://ami.responsivedesign.is/)
 
 ## Live project
-- [View the live project here](https://fruitbatm.github.io/amaris-chocolate/)
+- [Please view the live project here](https://fruitbatm.github.io/amaris-chocolate/)
 
 # Table of Contents
 1. [User Experience](#user-experience)
@@ -34,7 +33,6 @@ Image produced from [Am I responsive](http://ami.responsivedesign.is/)
     - Existing features
     - Future implementation
 3. Technologies
-
 4. Testing
     - Functionality and Features
     - User Stories Testing
@@ -90,7 +88,7 @@ As a business owner, I would like to:
 - [Google Fonts]()                             
 - [Balsamiq](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes for the website.
-- [CSS-Tricks](https://css-tricks.com/)
+- [CSS Tricks](https://css-tricks.com/)
     - 
 - [W3School](https://www.w3schools.com/)
     - 
@@ -106,9 +104,9 @@ As a business owner, I would like to:
 - [Am I responsive](http://ami.responsivedesign.is/)
 - [Shutterstock](https://www.shutterstock.com/)
     - Shutterstock was used to download the images for the site.
-- [Unsplash]()
+- [Unsplash](https://unsplash.com/)
     - Unsplash was used to download the images for the site.
-- [Flickr]()
+- [Flickr](https://www.flickr.com/)
 - [Flaticon](https://www.flaticon.com/)
     - Flaticon was used to download icons for the site.
 - [Animate.css](https://animate.style/)
@@ -117,19 +115,41 @@ As a business owner, I would like to:
     -
 - [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 - 
+
+- [javascript validator](https://www.piliapp.com/javascript-validator/)
+
+
 # Code Testing
 
 # Deployment
 
 # Credits
+
 ## Code
+- [W3School](https://www.w3schools.com/) was used:
+    - to create 'Back to Top Arrow' using JavaScript - credit was given in scroll.js file
+    - for Badge creation and placement - credit was given in style.css file
+    - as a general resource
+- [CSS Tricks](https://css-tricks.com/) was used as a general resource.
+- [Animate.css](https://animate.style/) was used for CSS animation of heading in 'Our Chocolate' and 'Our Story' pages.
+- [Coderwall](https://coderwall.com/) was used for media queries for iPhone 5 - credit was given in style.css file.
+
 ## Media
+- [Shutterstock](https://www.shutterstock.com/)
+- [Unsplash](https://unsplash.com/)
+- [Font Awesome](https://fontawesome.com/)
+
 ## Content
+Below websites were used for a general layout inspiration:
+- [HOLY CACAO](https://www.holycacao.co.il/)
+- [JOJO's](https://jojoschocolate.com/)
+- All content was written by myself
 
 # Acknowledgements
-- My mentor, Spencer Barriball, for the helpful feedback and guidance.
-- Fellow Code Institute students for their feedback and suggestions.
-- My family and friends for testing and useful feedback.  
+- My mentor, Spencer Barriball, for the helpful feedback and guidance
+- [Code Institute](https://codeinstitute.net/) for all course materials and ongoing support
+- Fellow Code Institute students for their feedback and suggestions
+- My family and friends for testing and useful feedback 
 
 # Disclaimer
 The information provided on this website is for educational purposes only.
