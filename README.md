@@ -12,6 +12,8 @@ Amaris Chocolate website was created as a Milestone Project 1 as a part of **Dip
 Responsive Mockup
 <h3 align="center"><img src="assets/images/readme_images/Am I responsive_screenshot.jpg"></h2>
 
+Image produced from [Am I responsive](http://ami.responsivedesign.is/)
+
 ## Live project
 - [View the live project here](https://fruitbatm.github.io/amaris-chocolate/)
 
@@ -29,7 +31,10 @@ Responsive Mockup
         - Imagery
         - *Limitations*
 2. Features
+    - Existing features
+    - Future implementation
 3. Technologies
+
 4. Testing
     - Functionality and Features
     - User Stories Testing
@@ -39,10 +44,11 @@ Responsive Mockup
     - GitHub pages
     - Making a Local Clone
 6. Credits
-    - Images
-    - Content
     - Code
-    - Acknowledgements
+    - Media
+    - Content
+7. Acknowledgements
+8. Disclaimer
 
 # User Experience (UX)
 ## User Stories
@@ -70,11 +76,11 @@ As a business owner, I would like to:
 # Technologies
 
 ## Languages
-- [HTML5]
-- [CSS3]
-- [JavaScript]
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-## Framework Libraries and Programs
+## Framework, Libraries and Programs
 - [Bootstrap v.4.5.](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
     - I used Bootstrap to create the navbar and contact form as well to make the website responsive.
 - [Favicon](https://favicon.io/favicon-converter/)
@@ -97,21 +103,33 @@ As a business owner, I would like to:
 - [Can I Use](https://caniuse.com/)
 - [TinyJPG](https://tinyjpg.com/)
     - I used TinyPNG for compressing images while preserving transparency
-- [Am I responsive]()
-- [Shutterstock]()
+- [Am I responsive](http://ami.responsivedesign.is/)
+- [Shutterstock](https://www.shutterstock.com/)
     - Shutterstock was used to download the images for the site.
 - [Unsplash]()
     - Unsplash was used to download the images for the site.
 - [Flickr]()
 - [Flaticon](https://www.flaticon.com/)
     - Flaticon was used to download icons for the site.
-
-
-# Testing
+- [Animate.css](https://animate.style/)
+    - 
+- [Coolors](https://coolors.co/)
+    -
+- [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+- 
+# Code Testing
 
 # Deployment
 
 # Credits
+## Code
+## Media
+## Content
 
+# Acknowledgements
+- My mentor, Spencer Barriball, for the helpful feedback and guidance.
+- Fellow Code Institute students for their feedback and suggestions.
+- My family and friends for testing and useful feedback.  
 
-
+# Disclaimer
+The information provided on this website is for educational purposes only.
