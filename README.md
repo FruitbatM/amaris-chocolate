@@ -1,37 +1,40 @@
-# Amaris Chocolate website
+# Amaris Chocolate website                                    
+                            
+Developed and designed as part of Milestone Project 1: User Centric Frontend Development module.
 
-## Milestone Project 1
+## Overview
 This is a website for Amaris Chocolate, an existing small producer of handcrafted bean to to bar dark chocolates from Croatia.
 The chocolates are made with the high percentage of cocoa parts (70% or more). Bean to Bar production is a specific method of 
 crafting practiced by chocolate makers that are involved at every stage of the process that the cacao bean goes through.
 
-The main goal of the website is to build and promote the brand awareness, expand the existing market and to increase the sales.
+The main goal of the website is to build and promote **Amaris Chocolate** brand awareness, expand the existing market and to increase the sales.
 
 Amaris Chocolate website was created as a Milestone Project 1 as a part of **Diploma in Full Stack Software Development** with **Code Institute**.
 
-<h3 align="center"><img src="assets/images/readme_images/Am I responsive_screenshot.jpg"></h2>
+### Live project
+[Please view the live project here](https://fruitbatm.github.io/amaris-chocolate/)
 
-Image produced by [Am I responsive](http://ami.responsivedesign.is/)
+<h2 align="center"><img src="assets/images/readme_images/Am I responsive_screenshot.jpg"></h2>
 
-## Live project
-- [Please view the live project here](https://fruitbatm.github.io/amaris-chocolate/)
+Above mockup responsive image was created by [Am I responsive](http://ami.responsivedesign.is/).
 
 # Table of Contents
 1. [User Experience](#user-experience)
-    - Goals
     - User Stories
         - Visitor Stories
         - Business Stories
+    - Structure
+    - Skeleton
+        - Wireframes
     - Design
         - Structure
-        - Wireframes
-        - Typography
-        - Colours
+        - Colour Scheme
+        - Fonts
         - Imagery
-        - *Limitations*
+        - Design difference
 2. Features
-    - Existing features
-    - Future implementation
+    - Existing Features
+    - Future Implementation
 3. Technologies
 4. Testing
     - Functionality and Features
@@ -50,33 +53,50 @@ Image produced by [Am I responsive](http://ami.responsivedesign.is/)
 
 # User Experience (UX)
 ## User Stories
-As a user type, I want to perform an action, so that I can achieve a goal.
 ### Visitor Stories
-As a site visitor, I would like to:
-- learn what products the company offers.....
-- easily navigate through the site and find what I am looking for with an ease
-- easily able to contact the company if I might have enquiries
-- view the site on all devices ...........
-- find social media contacts with an ease so I can 
-- have an option to order products
-- learn more about the company so .....
-- learn how bean to chocolate bar is made.....
+1. As a site visitor, I would like to learn more about the company and what products the company offers. 
+2. As a site visitor, I would like to easily navigate through the site and find what I'm looking for with an ease.
+3. As a site visitor, I would like to contact the company if I might have any enquires.
+4. As a site visitor, I would like to have an option to order the products the company offers.
+5. As a site visitor, I would like that the website is responsive on all screen sizes.
+6. As a site visitor, I would like to be able to easily find and navigate to the company's social media.
 
 ### Business Stories
-As a business owner, I would like to:
-- as a newly founded company to promote our brand throughout the site
-- expand our existing market and build brand awareness
-- increase the sales
-- have the user interface that is simple, elegant, and easy to use
+1. As a business owner, I would like to have the website that is elegant, simple and easy to use.
+2. As a business owner, I want the website users to be able to find information about our company and products easily. 
+3. As a business owner, I would like to expand our existing market and build the brand awareness.
+4. As a business owner, I would like for the users to have an option to order our handcrafted chocolates.
+5. As a business owner, I would like to increase the sales.
+
+## Structure
+Amaris Chocolate website is designed to be elegant, consistent and user friendly.
+    - Interaction Design
+    - Information Design
+
+
+## Skeleton
+
+## Design
+
+### Colour Scheme
+
 
 # Features
+## Existing Features
+## Future Implementation
+- creating 404 error page
+- website version in Croatian language
+- expand chocolate products selection
+- adding the payment methods to order products and collect the paymenet
 
 # Technologies
-
 ## Languages
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    - HTML5 was used as the main language to _complete the structure of the website_.
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+    - custom written CSS3 was used to style the website.
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+    - JavaScript was used to create 'Back To Top Arrow' functionality
 
 ## Framework, Libraries and Programs
 - [Bootstrap v.4.5.](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
@@ -85,23 +105,27 @@ As a business owner, I would like to:
     - I used Favicon to place the bran icon on the browser's tab.
 - [Font Awesome](https://fontawesome.com/)
     - I used several icons from font awesome throughout the site for design features and for user experience.
-- [Google Fonts]()                             
+- [Google Fonts](https://fonts.google.com/)                             
 - [Balsamiq](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes for the website.
 - [CSS Tricks](https://css-tricks.com/)
     - 
 - [W3School](https://www.w3schools.com/)
     - 
-- [GitHub]()
+- [GitHub](https://github.com/)
 - [Gitpod]()
-- [Git]()
+- [Git](https://git-scm.com/)
 - [Adobe Photoshop Express](https://photoshop.adobe.com/)
     - Used for resizing images
 - [Chrome Developer Tools]()
 - [Can I Use](https://caniuse.com/)
 - [TinyJPG](https://tinyjpg.com/)
-    - I used TinyPNG for compressing images while preserving transparency
+    - TinyPNG was used for compressing images while preserving transparency
 - [Am I responsive](http://ami.responsivedesign.is/)
+
+[Techsini](http://techsini.com/multi-mockup/index.php)
+    - used to create the mock up image 
+
 - [Shutterstock](https://www.shutterstock.com/)
     - Shutterstock was used to download the images for the site.
 - [Unsplash](https://unsplash.com/)
@@ -118,8 +142,10 @@ As a business owner, I would like to:
 
 - [javascript validator](https://www.piliapp.com/javascript-validator/)
 
+## Tools
 
-# Code Testing
+# Testing
+Please click here for full testing process
 
 # Deployment
 
