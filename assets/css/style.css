@@ -317,7 +317,7 @@
     font-weight: 200;
 }
 .form-row {
-    font-family: 'Merriweather Sans', sans-serif;;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 /*setting not working - check
 .placeholder {
@@ -472,7 +472,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     outline: none;
     background-color: transparent;
     color: #774936;
-    opacity: 0.9;
+    opacity: 0.8;
     cursor: pointer; /* Add a mouse pointer on hover */
 }
 

@@ -1,6 +1,6 @@
 # Amaris Chocolate website                                    
-                            
-Developed and designed as part of Milestone Project 1: User Centric Frontend Development module.
+
+*Developed and designed as part of Milestone Project 1: User Centric Frontend Development module.*
 
 ## Overview
 This is a website for Amaris Chocolate, an existing small producer of handcrafted bean to to bar dark chocolates from Croatia.
@@ -79,6 +79,11 @@ Amaris Chocolate website is designed to be elegant, consistent and user friendly
 
 ### Colour Scheme
 
+### Fonts
+Two fonts are used throughout the project, both with sans-serif font as a fallback. 
+These fonts are used because of the excellent readability on screens of all sizes and both harmonize well with one another.
+- Merriweather Sans
+- Merriweather
 
 # Features
 ## Existing Features
