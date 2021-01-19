@@ -461,24 +461,21 @@ code with modification was taken from w3schools.com: https://www.w3schools.com/h
     font-size:0.7rem;
 }
 
-/*Back to top arrow - code taken from: */
+/* Back to top arrow - code with small modification taken from: 
+https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 #arrow_2top {
-    display: none;
-    position: fixed; /* Fixed/sticky position */
-    bottom: 6rem; /* Place the button at the bottom of the page */
-    right: 20px; /* Place the button 30px from the right */
+    position: fixed;
+    bottom: 6rem;
+    right: 1rem;
     z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #774936; /* Set a background color */
-    color: #fafafa;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #774936;
+    opacity: 0.9;
     cursor: pointer; /* Add a mouse pointer on hover */
-    border-radius: 50%; /* Rounded */
-    width: 2.2rem;
-    height: 2.2rem;
-    font-size: 1.3rem; /* Increase font (arrow) size */
 }
 
 #arrow_2top:hover {
-    background-color:#916750;
+    color:#916750;
 }

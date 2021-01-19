@@ -18,7 +18,7 @@ Amaris Chocolate website was created as a Milestone Project 1 as a part of **Dip
 
 Above mockup responsive image was created by [Am I responsive](http://ami.responsivedesign.is/).
 
-# Table of Contents
+## Table of Contents
 1. [User Experience](#user-experience)
     - User Stories
         - Visitor Stories
@@ -27,7 +27,6 @@ Above mockup responsive image was created by [Am I responsive](http://ami.respon
     - Skeleton
         - Wireframes
     - Design
-        - Structure
         - Colour Scheme
         - Fonts
         - Imagery
