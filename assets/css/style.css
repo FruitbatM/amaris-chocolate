@@ -105,7 +105,6 @@
     font-weight: 300;
     color: #411D13;
 }
-
 .divider {
     width: 25%;
     border-top: 4px solid;
@@ -243,7 +242,6 @@
     align-items: center;
 }
 
-
 /*Footer*/
 .footer-section {
     background-color: #5C3324;
@@ -319,17 +317,47 @@
 .form-row {
     font-family: 'Merriweather Sans', sans-serif;
 }
-/*setting not working - check
-.placeholder {
-   font-size: 0.8rem;
-}
-*/
-
 .container-fluid,
 .row {
     margin: 0 auto;
     padding: 0;
 }
+
+/* Badge placement
+code with modification was taken from w3schools.com: https://www.w3schools.com/howto/howto_css_notification_button.asp */
+
+.notification {
+    position: inherit;
+    display: inline-block;
+}
+.badge {
+    position: absolute;
+    right: 2rem;
+    top: 0.4rem;
+    background: #b70f39;
+    text-align: center;
+    padding:0.5rem 0.8rem;
+    font-size:0.7rem;
+}
+
+/* Back to top arrow - code with small modification taken from: 
+https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+#arrow_2top {
+    position: fixed;
+    bottom: 6rem;
+    right: 1rem;
+    z-index: 99; /* Make sure it does not overlap */
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #774936;
+    opacity: 0.6;
+    cursor: pointer; /* Add a mouse pointer on hover */
+}
+#arrow_2top:hover {
+    color:#916750;
+}
+
 
 /*Media Queries*/
 
@@ -441,40 +469,4 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
     .navbar-text {
         margin-left: 0.3rem !important;
     }
-}
-
-
-/*Badge placement
-code with modification was taken from w3schools.com: https://www.w3schools.com/howto/howto_css_notification_button.asp*/
-
-.notification {
-    position: inherit;
-    display: inline-block;
-}
-.badge {
-    position: absolute;
-    right: 2rem;
-    top: 0.4rem;
-    background: #b70f39;
-    text-align: center;
-    padding:0.5rem 0.8rem;
-    font-size:0.7rem;
-}
-
-/* Back to top arrow - code with small modification taken from: 
-https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
-#arrow_2top {
-    position: fixed;
-    bottom: 6rem;
-    right: 1rem;
-    z-index: 99; /* Make sure it does not overlap */
-    border: none;
-    outline: none;
-    background-color: transparent;
-    color: #774936;
-    opacity: 0.6;
-    cursor: pointer; /* Add a mouse pointer on hover */
-}
-#arrow_2top:hover {
-    color:#916750;
 }
