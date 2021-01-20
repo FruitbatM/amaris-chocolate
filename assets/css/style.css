@@ -1,4 +1,4 @@
-/*Navbar*/
+/* Navbar */
 .logo {
     width: 60px;
     height: 60px;
@@ -27,7 +27,7 @@
     padding: .4rem;
 }
 
-/* Hover effect for Underline Reveal - credit to Ian Lunn (https://ianlunn.github.io/Hover/)*/
+/* Hover effect for Underline Reveal - credit to Ian Lunn (https://ianlunn.github.io/Hover/) */
 .hvr-underline-reveal {
   display: inline-block;
   vertical-align: middle;
@@ -37,7 +37,6 @@
   position: relative;
   overflow: hidden;
 }
-
 .hvr-underline-reveal:before {
   content: "";
   position: absolute;
@@ -62,7 +61,6 @@
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
-
 #jumbo {
     position: relative;
     min-height: 70vh;
@@ -70,7 +68,6 @@
     background: url(../images/dark-chocolate-organic.jpg) no-repeat center;
     width: 100%;
 }
-
 .display-5 {
     text-align: center;
     margin-top: 14rem;
@@ -85,18 +82,16 @@
     font-size: 1rem;
     text-shadow: 0.2rem 0.2rem #45464785;
 }
-/*Remove the gap between jumbotron and 'Our chocolate' section.*/
+/* Remove the gap between jumbotron and 'Our chocolate' section */
 .jumbotron {
     margin-bottom: 0;
 }
 
-/*Our Chocolate section*/
-
+/* Our Chocolate section */
 .transbox {
     border: none;
     background-color: #fafafa;
 }
-
 .chocolate-text-header > h2 {
     text-align: center;
     padding-top: 2rem;
@@ -151,7 +146,7 @@
     border-radius: 0.4rem;
     text-transform: uppercase;
 }
-/*Add wrapper class to position .btn-order to center*/
+/* Add wrapper class to position .btn-order to center */
 .wrapper {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -166,15 +161,13 @@
     margin: auto;
 }
 
-/*Our Chocolate section - separate page*/
-
+/* Our Chocolate section - separate page */
 .img-fluid{
     max-width: 100%;
     height: auto;
     padding: 0.6rem;
     vertical-align: middle;
 }
-
 .our-chocolate-para {
     font-size: 1rem;
     font-family: 'Merriweather', sans-serif;
@@ -184,23 +177,20 @@
     line-height: 2rem;
     color: #38160D;
 }
-
 .cert-icons {
     list-style: none;
     display: inline-block;
     margin: 1.2rem 2rem 1rem 2rem;
     padding-right: 1.5rem;
 }
-
 .cert-icons > span {
     display: block;
 }
-
 .cert-image {
     padding-bottom: 0.2rem;
 }
 
-/*Our Story section*/
+/* Our Story section */
 .our-story-main {
     margin-top: 4rem;
 }
@@ -222,7 +212,7 @@
     color: #38160D;
 }
 
-/*Story image display on medium devices and below*/
+/* Story image display on medium devices and below */
 .story-image {
     max-width: 100%;
     height: auto;
@@ -237,12 +227,12 @@
     color: #411D13;
 }
 
-/*Centring 'our story' image on the landing page*/
+/* Centring 'our story' image on the landing page */
 .text-center {
     align-items: center;
 }
 
-/*Footer*/
+/* Footer */
 .footer-section {
     background-color: #5C3324;
     color: #fafafa;
@@ -277,7 +267,7 @@
     color: #fafafa;
     font-size: 1.2rem;
 }
-/*Contact Form*/
+/* Contact Form */
 .contact-section {
     padding: 90px 0;
 }
@@ -300,12 +290,12 @@
     text-transform: uppercase;
     margin: auto;
 }
-/*Hover effect for all buttons*/
+/* Hover effect for all buttons */
 .btn-contact:hover, .btn-more:hover, .btn-order:hover {
     background-color: #916750;
     border-color: #916750;
 }
-/*Background color for 'our chocolate' and 'our story' sections on landing pge*/
+/* Background color for 'our chocolate' and 'our story' sections on landing page */
 .bg-light {
     background-color: #F5E8E1 !important;
     width: 100%;
@@ -359,9 +349,9 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 }
 
 
-/*Media Queries*/
+/* Media Queries */
 
-/*Hero Image - jumbotron display on iPad devices*/
+/* Hero Image - jumbotron display on iPad devices */
 @media screen and (min-width: 764px) {
     .logo {
     width: 60px;
@@ -386,7 +376,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     }
 }
 
-/*Display on large devices*/
+/* Display on large devices */
 @media screen and (min-width: 1024px) {
     .logo {
     width: 60px;
@@ -455,7 +445,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 }
 
 /* iPhone 5 only (portrait mode)
-resource: https://coderwall.com/p/mwvbea/media-queries-only-for-the-iphone-5-part-i*/ 
+resource: https://coderwall.com/p/mwvbea/media-queries-only-for-the-iphone-5-part-i */ 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)
 and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait) {
