@@ -14,7 +14,7 @@ Amaris Chocolate website was created as a Milestone Project 1 as a part of **Dip
 ### Live project
 [Please view the live project here](https://fruitbatm.github.io/amaris-chocolate/)
 
-<h2 align="center"><img src="assets/images/readme_images/Am I responsive_screenshot.jpg"></h2>
+<h2 align="center"><img src="assets/images/readme_images/Am I responsive_screenshot.jpg" target="_blank"></h2>
 
 Above mockup responsive image was created by [Am I responsive](http://ami.responsivedesign.is/).
 
@@ -75,8 +75,9 @@ Amaris Chocolate website is designed to be elegant, consistent and user friendly
 ## Skeleton
 
 ## Design
-
 ### Colour Scheme
+
+![Colour Palette](https://github.com/FruitbatM/amaris-chocolate/blob/master/assets/images/readme_images/Colour%20Palette.png)
 
 ### Fonts
 Two fonts are used throughout the project, both with sans-serif font as a fallback. 
