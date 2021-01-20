@@ -27,10 +27,6 @@ Above mockup responsive image was created by [Am I responsive](http://ami.respon
 >       - [Future Implementation](#future-implementation)
 > 4. [Technologies](#technologies)
 > 5. [Testing](#testing)
->    - Functionality and Features
->    - User Stories Testing
->    - Bugs and Fixes
->    - Further testing
 > 6. Deployment
 >    - GitHub pages
 >    - Making a Local Clone
@@ -90,7 +86,7 @@ For the background I used Linen (#F5E8E1) colour which I alternated with the whi
 - For the buttons I used Coffee (#774936) colour and for the button hover effect I used Liver Chesnut (#916750) in order to indicate the user that the element is clickable and for the better appearance. 
 - [Coolors](https://coolors.co/) was used to create a colour palette.
 
-![Colour Palette](readme-images/colour-palette.png)
+![Colour Palette](readme-images/colour-palette.jpg)
 ### Fonts
 - I used two fonts throughout the project, **Merriweather Sans** and **Merriweather**. Both were used with ``sans-serif`` font as a fallback. 
 **Merriweather Sans** was used for the navigation and main headings and **Merriweather** was used for the paragraph sections and footer.
@@ -190,6 +186,8 @@ Bellow I will describe features in more details.
 Please click here for full testing process
 
 # Deployment
+## GitHub pages
+## Forking GitHub Repository
 
 # Credits
 ## Code
@@ -211,10 +209,10 @@ Below websites were used for a general layout inspiration:
 - All content was written by myself
 
 # Acknowledgements
-- My mentor, Spencer Barriball, for the helpful feedback and guidance
-- [Code Institute](https://codeinstitute.net/) for all course materials and ongoing support
-- Fellow Code Institute students for their feedback and suggestions
-- My family and friends for testing and useful feedback 
+- My mentor, Spencer Barriball, for the helpful feedback and guidance.
+- [Code Institute](https://codeinstitute.net/) for all course materials and ongoing support.
+- Fellow Code Institute students for their feedback and suggestions.
+- My family and friends for testing and useful feedback. 
 
 # Disclaimer
 The information provided on this website is for educational purposes only.
