@@ -14,7 +14,7 @@ Amaris Chocolate website was created as a Milestone Project 1 as a part of **Dip
 ### Live project
 [Please view the live project here](https://fruitbatm.github.io/amaris-chocolate/)
 
-<h2 align="center"><img src="assets/images/readme_images/Am I responsive_screenshot.jpg" target="_blank"></h2>
+<h2 align="center"><img src="readme-images/Am I responsive_screenshot.jpg" target="_blank"></h2>
 
 Above mockup responsive image was created by [Am I responsive](http://ami.responsivedesign.is/).
 
@@ -30,6 +30,7 @@ Above mockup responsive image was created by [Am I responsive](http://ami.respon
         - Colour Scheme
         - Fonts
         - Imagery
+        - Icons
         - Design difference
 2. Features
     - Existing Features
@@ -76,14 +77,31 @@ Amaris Chocolate website is designed to be elegant, consistent and user friendly
 
 ## Design
 ### Colour Scheme
+I used three main colours for this project with the main focus on shades of dark brown colour to represent the feel of luxurious organic dark chocolate.
+According to the [Color Psychology](https://www.verywellmind.com/color-psychology-2795824) shades of brown (chocolate) evoke the sense of strength, warmth and comfort.
+Also, since the dark brown colour is represented in [Amaris Chocolate's](https://fruitbatm.github.io/amaris-chocolate/) logo, the shades of dark brown were emphasized throughout the website. 
 
-![Colour Palette](https://github.com/FruitbatM/amaris-chocolate/blob/master/assets/images/readme_images/Colour%20Palette.png)
+A Caput Mortuum colour (#5C3324) was used for navigation and footer sections. Fot the text, I used Dark Sienna colour (#38160D) and for the headings, Black Bean colour (#411D13).
+For the background I used Linen (#F5E8E1) colour which I alternated with the white colour to create defined sections when scrolling through the website. Furthermore, the light background works well with the dark brown text due to its contrast.
+
+For the buttons I used Coffee (#774936) colour and for the button hover effect I used Liver Chesnut (#916750) in order to indicate the user that the element is clickable and for the better appearance. 
+
+[Coolors](https://coolors.co/) was used to create a colour palette.
+
+![Colour Palette](readme-images/colour-palette.png)
 
 ### Fonts
-Two fonts are used throughout the project, both with sans-serif font as a fallback. 
-These fonts are used because of the excellent readability on screens of all sizes and both harmonize well with one another.
-- Merriweather Sans
-- Merriweather
+- I used two fonts throughout the project, **Merriweather Sans** and **Merriweather**. Both were used with ``sans-serif`` font as a fallback. 
+**Merriweather Sans** was used for the navigation and main headings and **Merriweather** was used for the paragraph sections and footer.
+- These fonts are used because of the excellent readability and appearance on screens of all sizes. These fonts were designed to be especially pleasant to read at very small sizes and both harmonize well with one another.
+- Both fonts were imported from [Google Fonts](https://fonts.google.com/).
+
+### Imagery
+
+### Icons
+
+
+
 
 # Features
 ## Existing Features
@@ -120,7 +138,7 @@ These fonts are used because of the excellent readability on screens of all size
 - [Gitpod]()
 - [Git](https://git-scm.com/)
 - [Adobe Photoshop Express](https://photoshop.adobe.com/)
-    - Used for resizing images
+    - Used for resizing and cropping images
 - [Chrome Developer Tools]()
 - [Can I Use](https://caniuse.com/)
 - [TinyJPG](https://tinyjpg.com/)
