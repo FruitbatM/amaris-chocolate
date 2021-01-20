@@ -72,7 +72,6 @@ Amaris Chocolate website is designed to be elegant, consistent and user friendly
     - Interaction Design
     - Information Design
 
-
 ## Skeleton
 
 ## Design
