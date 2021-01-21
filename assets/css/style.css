@@ -374,6 +374,9 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
         font-size: 3rem;
         text-shadow: 0.2rem 0.2rem #45464785;
     }
+    .footer-email > a {
+        margin-left: 0.2rem;
+    }
 }
 
 /* Display on large devices */
