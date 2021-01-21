@@ -124,6 +124,7 @@
     vertical-align: middle;
     border-style: none;
     max-width: 55%;
+    border: 0.07rem solid #181716;
 }
 .card-chocolate-title {
     font-family: 'Merriweather', sans-serif;
