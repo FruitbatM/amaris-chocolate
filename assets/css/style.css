@@ -92,6 +92,13 @@
     border: none;
     background-color: #fafafa;
 }
+
+.chocolate-head {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    color: #38160D;
+    text-shadow: 0.1rem 0.1rem #69696969;
+}
 .chocolate-text-header > h2 {
     text-align: center;
     padding-top: 2rem;
@@ -105,6 +112,7 @@
     border-top: 4px solid;
     color: #5C3324;
 }
+
 .chocolate-text-header > p {
     font-size: 1rem;
     font-family: 'Merriweather', sans-serif;
@@ -375,6 +383,11 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
         font-size: 3rem;
         text-shadow: 0.2rem 0.2rem #45464785;
     }
+    /* Adjusting top padding to have additional space */
+    .container-m {
+        padding-top: 1.5rem !important;
+    }
+
     .footer-email {
         margin-bottom: 0.5rem;
     }
@@ -392,7 +405,6 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
     #jumbo {
     min-height: 80vh;
     }
-
     #jumbo-text {
         text-align: center;
         font-family: 'Merriweather', sans-serif;
@@ -416,6 +428,9 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
         line-height: 2rem;
         color: #38160D;
     }
+    .container-m {
+        padding-top: 2.5rem !important;
+    }
     .chocolate-text-header > p {
         font-size: 1.2rem;
         font-family: 'Merriweather', sans-serif;
@@ -426,13 +441,10 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
         color: #38160D;
     }
     .chocolate-head {
-    font-family: 'Merriweather Sans', sans-serif;
     font-size: 2.4rem;
-    color: #38160D;
     text-shadow: 0.12rem 0.12rem #69696969;
     padding-bottom: 2.2rem;
     }
-
     .our-chocolate-para {
         font-size: 1.2rem;
         font-family: 'Merriweather', sans-serif;
