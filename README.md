@@ -2,12 +2,13 @@
 
 *Developed and designed as part of Milestone Project 1: User Centric Frontend Development module.*
 
+[Please view the live project here](https://fruitbatm.github.io/amaris-chocolate/)
+
 <h2 align="center"><img src="readme-images/Am I responsive_screenshot.jpg" target="_blank"></h2>
 
 Above mockup responsive image was created by [Am I responsive](http://ami.responsivedesign.is/).
 
 ## Table of Contents
-
 > 1. [Overview](#overview)
 > 2. [User Experience (UX)](#user-experience)
 >    - [User Stories](#user-stories)
@@ -46,9 +47,6 @@ The main goal of the website is to build and promote **Amaris Chocolate** brand 
 
 Amaris Chocolate website was created as a Milestone Project 1 as a part of **Diploma in Full Stack Software Development** with **Code Institute**.
 The project is developed primarily using HTML and CSS programs, with a small amount of JavaScript implemented for additional functionality.
-
-### Live project
-[Please view the live project here](https://fruitbatm.github.io/amaris-chocolate/)
 
 # User Experience (UX)
 ## User Stories
@@ -176,6 +174,7 @@ Bellow I will describe features in more details.
 - [Animate.css](https://animate.style/) was used as a source for adding CSS animation on headings.
 - [Coolors](https://coolors.co/) was used for colour palette used on the website.
 - [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+- [CorelDRAW Graphics Suite 2020](https://www.coreldraw.com/en/product/coreldraw/index-price.html) was used to edit CDR files and convert them to JPG images.
 
 ## Validation
 - [W3C Markup](https://validator.w3.org/) was used for Markup validation.
@@ -187,6 +186,22 @@ Please click here for full testing process
 
 # Deployment
 ## GitHub pages
+The project deployment to GitHub Pages is explained in the below steps:
+    
+1. Login into GitHub, locate and select [Amaris Chocolate](https://github.com/FruitbatM/amaris-chocolate) from the list of Repositories.
+<br>
+![Repositories](readme-images/repositories.jpg)
+2. At the top of the Repository page, under the sub-headings, select "Settings" button.
+<br>
+*Add screenshot
+3. Scroll down the page until you reach "GitHub Pages" section.
+4. Under the "Source" sub-section, select "master" branch.
+5. Click "Save" button.
+6. The page will refresh. To locate the link to the published site, scroll down again to the "GitHub Pages" section. Your link will be highlighted in the green box per screenshot below.
+<br>
+![GitHub link to published site](readme-images/github-live-link.jpg)
+
+
 ## Forking GitHub Repository
 
 # Credits
