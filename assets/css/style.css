@@ -351,7 +351,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
 /* Media Queries */
 
-/* Hero Image - jumbotron display on iPad devices */
+/* Display on iPad devices */
 @media screen and (min-width: 764px) {
     .logo {
     width: 60px;
@@ -373,6 +373,9 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
         font-family: 'Merriweather Sans', sans-serif;
         font-size: 3rem;
         text-shadow: 0.2rem 0.2rem #45464785;
+    }
+    .footer-email {
+        margin-bottom: 0.5rem;
     }
     .footer-email > a {
         margin-left: 0.2rem;
