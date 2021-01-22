@@ -28,8 +28,8 @@ Above mockup responsive image was created by [Am I responsive](http://ami.respon
 >       - [Future Implementation](#future-implementation)
 > 4. [Technologies](#technologies)
 > 5. [Testing](#testing)
-> 6. Deployment
->    - GitHub pages
+> 6. [Deployment](#deployment)
+>    - [GitHub pages](#github-pages)
 >    - Making a Local Clone
 > 7. [Credits](#credits)
 >    - [Code](#code)
@@ -189,18 +189,19 @@ Please click here for full testing process
 The project deployment to GitHub Pages is explained in the below steps:
     
 1. Login into GitHub, locate and select [Amaris Chocolate](https://github.com/FruitbatM/amaris-chocolate) from the list of Repositories.
-<br>
-![Repositories](readme-images/repositories.jpg)
+
+    ![Repositories](readme-images/repositories.jpg)
+
 2. At the top of the Repository page, under the sub-headings, select "Settings" button.
-<br>
-*Add screenshot
+
+    *Add screenshot
+
 3. Scroll down the page until you reach "GitHub Pages" section.
 4. Under the "Source" sub-section, select "master" branch.
 5. Click "Save" button.
 6. The page will refresh. To locate the link to the published site, scroll down again to the "GitHub Pages" section. Your link will be highlighted in the green box per screenshot below.
-<br>
-![GitHub link to published site](readme-images/github-live-link.jpg)
 
+    ![GitHub link to published site](readme-images/github-live-link.jpg)
 
 ## Forking GitHub Repository
 
@@ -224,7 +225,7 @@ Below websites were used for a general layout inspiration:
 - All content was written by myself
 
 # Acknowledgements
-- My mentor, Spencer Barriball, for the helpful feedback and guidance.
+- My mentor, Mr. Spencer Barriball, for the helpful feedback and guidance.
 - [Code Institute](https://codeinstitute.net/) for all course materials and ongoing support.
 - Fellow Code Institute students for their feedback and suggestions.
 - My family and friends for testing and useful feedback. 

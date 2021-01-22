@@ -1,3 +1,6 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+
 /* Navbar */
 .logo {
     width: 60px;
@@ -92,6 +95,10 @@
     border: none;
     background-color: #fafafa;
 }
+.animate__backInLeft {
+    animation-duration: 3s;
+}
+
 
 .chocolate-head {
     font-family: 'Merriweather Sans', sans-serif;
