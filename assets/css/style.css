@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
 
@@ -36,7 +43,8 @@
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
 }
@@ -50,19 +58,27 @@
   background: #F5E8E1 ;
   height: 2.5px;
   -webkit-transform: translateY(4px);
-  transform: translateY(4px);
+  -ms-transform: translateY(4px);
+      transform: translateY(4px);
   -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
   transition-property: transform;
+  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+     transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+     transition-timing-function: ease-out;
 }
 .hvr-underline-reveal:hover:before, 
 .hvr-underline-reveal:focus:before, 
 .hvr-underline-reveal:active:before {
   -webkit-transform: translateY(0);
-  transform: translateY(0);
+  -ms-transform: translateY(0);
+      transform: translateY(0);
 }
 #jumbo {
     position: relative;
@@ -96,10 +112,9 @@
     background-color: #fafafa;
 }
 .animate__backInLeft {
-    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
 }
-
-
 .chocolate-head {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 2rem;
@@ -177,7 +192,7 @@
     margin: auto;
 }
 
-/* Our Chocolate section - separate page */
+/* Our Chocolate section - standalone page */
 .img-fluid{
     max-width: 100%;
     height: auto;
@@ -245,7 +260,9 @@
 
 /* Centring 'our story' image on the landing page */
 .text-center {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 /* Footer */
@@ -307,10 +324,21 @@
     margin: auto;
 }
 /* Hover effect for all buttons */
-.btn-contact:hover, .btn-more:hover, .btn-order:hover {
+.btn-more:hover, .btn-more:active, .btn-more:focus {
     background-color: #916750;
     border-color: #916750;
 }
+
+.btn-order:hover, .btn-order:active, .btn-order:focus {
+    background-color: #916750;
+    border-color: #916750;
+}
+
+.btn-contact:hover, .btn-contact:active, .btn-contact:focus {
+    background-color: #916750;
+    border-color: #916750;
+}
+
 /* Background color for 'our chocolate' and 'our story' sections on landing page */
 .bg-light {
     background-color: #F5E8E1 !important;
