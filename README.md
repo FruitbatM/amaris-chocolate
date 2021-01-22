@@ -175,6 +175,7 @@ Bellow I will describe features in more details.
 - [Coolors](https://coolors.co/) was used for colour palette used on the website.
 - [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 - [CorelDRAW Graphics Suite 2020](https://www.coreldraw.com/en/product/coreldraw/index-price.html) was used to edit CDR files and convert them to JPG images.
+- [CSS Autoprefixe](https://autoprefixer.github.io/) - was used for adding CSS vendor prefixes.
 
 ## Validation
 - [W3C Markup](https://validator.w3.org/) was used for Markup validation.

@@ -169,6 +169,7 @@
 }
 .btn-more {
     background-color: #774936;
+    border: none;
     display: inline-block;
     text-align: center;
     line-height: 1.2rem;
@@ -184,6 +185,7 @@
 }
 .btn-order {
     background-color: #774936;
+    border: none;
     position: relative;
     line-height: 1.2rem;
     font-size: 1rem;
@@ -313,7 +315,7 @@
 }
 .btn-contact {
     background-color: #774936;
-    border-color: #774936;
+    border: none;
     display: block;
     text-align: center;
     line-height: 1rem;
@@ -324,19 +326,18 @@
     margin: auto;
 }
 /* Hover effect for all buttons */
-.btn-more:hover, .btn-more:active, .btn-more:focus {
-    background-color: #916750;
-    border-color: #916750;
-}
+.btn-more:hover, .btn-more:active .btn-more:focus{
+    background-color: #916750 !important;
+    border-color: #916750 !important;
 
+}
 .btn-order:hover, .btn-order:active, .btn-order:focus {
-    background-color: #916750;
-    border-color: #916750;
+    background-color: #916750 !important;
+    border-color: #916750 !important;
 }
-
 .btn-contact:hover, .btn-contact:active, .btn-contact:focus {
-    background-color: #916750;
-    border-color: #916750;
+    background-color: #916750 !important;
+    border-color: #916750 !important;
 }
 
 /* Background color for 'our chocolate' and 'our story' sections on landing page */
