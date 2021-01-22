@@ -12,8 +12,8 @@ Above mockup responsive image was created by [Am I responsive](http://ami.respon
 > 1. [Overview](#overview)
 > 2. [User Experience (UX)](#user-experience)
 >    - [User Stories](#user-stories)
->    - [Visitor Stories](#visitor-stories)
->    - [Business Stories](business-stories)
+>       - [Visitor Stories](#visitor-stories)
+>       - [Business Stories](business-stories)
 >    - Structure
 >    - Skeleton
 >        - [Wireframes](#wireframes)
@@ -61,7 +61,7 @@ The project is developed primarily using HTML and CSS programs, with a small amo
 ### Business Stories
 1. As a business owner, I would like to have the website that is elegant, simple and easy to use.
 2. As a business owner, I want the website users to be able to find information about our company and products easily. 
-3. As a business owner, I would like to expand our existing market and build the brand awareness.
+3. As a business owner, I would like to expand our existing market.
 4. As a business owner, I would like for the users to have an option to order our handcrafted chocolates.
 5. As a business owner, I would like to increase the sales.
 
@@ -178,8 +178,8 @@ Bellow I will describe features in more details.
 - [CSS Autoprefixe](https://autoprefixer.github.io/) - was used for adding CSS vendor prefixes.
 
 ## Validation
-- [W3C Markup](https://validator.w3.org/) was used for Markup validation.
-- [W3C CSS](https://jigsaw.w3.org/css-validator/) was used for CSS code validation.
+- [W3C Markup Validation Service](https://validator.w3.org/) was used for Markup validation.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used for CSS code validation.
 - [JavaScript validator](https://www.piliapp.com/javascript-validator/) was used for JavaScript code validation.
 
 # Testing
