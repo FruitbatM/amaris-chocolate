@@ -325,6 +325,8 @@
     text-transform: uppercase;
     margin: auto;
 }
+
+
 /* Hover effect for all buttons */
 .btn-more:hover, .btn-more:active .btn-more:focus{
     background-color: #916750 !important;
