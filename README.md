@@ -15,7 +15,7 @@ Above mockup responsive image was created by [Am I responsive](http://ami.respon
 >       - [Visitor Stories](#visitor-stories)
 >       - [Business Stories](business-stories)
 >    - Structure
->    - Skeleton
+>    - [Skeleton](#skeleton)
 >        - [Wireframes](#wireframes)
 >    - [Design](#design)
 >       - [Colour Scheme](#colour-scheme)
@@ -179,6 +179,7 @@ Bellow I will describe features in more details.
 - [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 - [CorelDRAW Graphics Suite 2020](https://www.coreldraw.com/en/product/coreldraw/index-price.html) was used to edit CDR files and convert them to JPG images.
 - [CSS Autoprefixe](https://autoprefixer.github.io/) was used for adding CSS vendor prefixes.
+- [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker) was used to check the spelling of the webpage.
 
 ## Validation
 - [W3C Markup Validation Service](https://validator.w3.org/) was used for Markup validation.
