@@ -2,9 +2,10 @@
 ## Table of Contents
 1. [User Stories Testing](#user-stories)
 2. [Code Validation](#code-validation)
-3. Functionality Testing
-4. Encountered Issues
-5. Performance Testing
+3. [Functionality Testing](#functionality-testing)
+4. Performance Testing
+5. Encountered Issues
+
 
 # User Stories Testing
 ## Visitor Stories
@@ -94,10 +95,38 @@ Every page of the project was validated by the [W3C Markup Validation Service](h
 - There are no errors.
     <h2 align="center"><img src="readme-images/js-validator.jpg" alt"JS Validation" target="_blank" width="50%" height="50%"></h2>
 
-# Functionality Testing
-
+# Functionality Testing 
+Feature testing - each page section
+Responsive Layout 
 Checking for broken links - each page
 Form validation
+
+## Browser Testing
+- The website was tested on the bellow browser. All browser versions were up to date.
+    - Google Chrome
+    - Firefox 
+    - Brave
+    - Microsoft Edge
+    - Safari
+    - Chrome for Android
+
+I didn't encounter any issue, the website is fully functioning and fully responsive on all above mentioned browsers. 
+
+## Device Testing
+- The website was tested on the following devices:
+    - iPhone 7 (Safari & Google Chrome)
+    - iPhone 8 (Safari & Google Chrome)
+    - Samsung GTI9505 Galaxy S4  (Chrome for Android)
+    - Samsung Galaxy 9 (Chrome for Android & Samsung Internet)
+    - Samsung Galaxy S20 (Chrome for Android & Samsung Internet)
+    - Nokia 6.1 (Microsoft Edge)
+    - Nokia Lumia 640 LTE (Windows 10) (Microsoft Edge)
+    - HUAWEI P30 lite (Chrome for Android)
+    - Samsung Galaxy Tab A (Chrome for Android & Samsung Internet)
+
+
+The result was consistent, website is platform-cross compatible.
+
 
 
 # Encountered Issues
@@ -107,3 +136,7 @@ Bugs & issues
 # Performance Testing
 
 Lighthouse
+Accessibility, Performance, Progressive Web Apps, and Best Practices Audit:
+
+
+Click here to return to the main README.md.
