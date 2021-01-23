@@ -328,18 +328,29 @@
 
 
 /* Hover effect for all buttons */
-.btn-more:hover, .btn-more:active .btn-more:focus{
+.btn-more:hover,
+.btn-more:focus,
+.btn-more:active {
     background-color: #916750 !important;
-    border-color: #916750 !important;
-
+    border-color: #5C3324 !important;
+    box-shadow: 0.2rem 0.2rem #5C3324 !important;
+    border: 0.12rem solid;
 }
-.btn-order:hover, .btn-order:active, .btn-order:focus {
+.btn-order:hover,
+.btn-order:focus,
+.btn-order:active {
     background-color: #916750 !important;
-    border-color: #916750 !important;
+    border-color: #5C3324 !important;
+    box-shadow: 0.2rem 0.2rem #5C3324 !important;
+    border: 0.12rem solid;
 }
-.btn-contact:hover, .btn-contact:active, .btn-contact:focus {
+.btn-contact:hover,
+.btn-contact:focus,
+.btn-contact:active {
     background-color: #916750 !important;
-    border-color: #916750 !important;
+    border-color: #5C3324 !important;
+    box-shadow: 0.2rem 0.2rem #5C3324 !important;
+    border: 0.12rem solid;
 }
 
 /* Background color for 'our chocolate' and 'our story' sections on landing page */
@@ -504,8 +515,8 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 /* iPhone 5 only (portrait mode)
 resource: https://coderwall.com/p/mwvbea/media-queries-only-for-the-iphone-5-part-i */ 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
-and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait) {
+@media only screen and (min-width: 320px) and (max-width: 568px)
+and (-webkit-device-pixel-ratio: 2) and (min-aspect-ratio: 40/71) and (orientation:portrait) {
     .logo {
     width: 45px;
     height: 45px;

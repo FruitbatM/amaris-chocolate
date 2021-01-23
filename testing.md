@@ -63,22 +63,27 @@
     - This business story is not measurable in current form. The one can suspect the sales will increase by launching the website but without the shopping cart and payment gateway functionality it is difficult to predict the site visitors will make the orders via contact form.
 
 # Code Validation
-Every page of the project was validated by the [W3C Markup Validation Service](https://validator.w3.org/) and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to ensure there were no syntax errors or issues.
+Every page of the project was validated by the [W3C Markup Validation Service](https://validator.w3.org/) to ensure there were no syntax errors or issues. 
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate CSS code.
 [JavaScript validator](https://www.piliapp.com/javascript-validator/) was used for validation of short JavaScript code snippet.
 
 ## [W3C Markup Validation Service](https://validator.w3.org/) - Markup Validation
-### Home page
+### **Home page**
 
-### Our Chocolate page
+<h2><img src="readme-images/validator-index-html.jpg" alt"HTML Validation - Home page" target="_blank" width="60%" height="60%"></h2>
 
-### Our Story page
+### **Our Chocolate page**
+<h2><img src="readme-images/validator-our-chocolate-html.jpg" alt"HTML Validation - Our Chocolate page" target="_blank" width="60%" height="60%"></h2>
 
-### Contact Us
+### **Our Story page**
+<h2><img src="readme-images/validator-our-story-html.jpg" alt"HTML Validation - Our Story page" target="_blank" width="60%" height="60%"></h2>
 
+### **Contact Us page**
+<h2><img src="readme-images/validator-contact-html.jpg" alt"HTML Validation - Contact Us page" target="_blank" width="60%" height="60%"></h2>
 
 ## [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - CSS Validation
 
+![CSS Validation]()
 
 ## [JavaScript validator](https://www.piliapp.com/javascript-validator/) - JavaScript Validation
-
-
+<h2><img src="readme-images/js-validator.jpg" alt"JS Validation" target="_blank" width="50%" height="50%"></h2>

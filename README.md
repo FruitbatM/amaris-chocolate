@@ -71,6 +71,11 @@ Amaris Chocolate website is designed to be elegant, consistent and user friendly
     - Information Design
 
 ## Skeleton
+The wireframes were created in [Balsamiq](https://balsamiq.com/).
+Please view the wireframes for desktop, tablet and mobile screens on the following link: Amaris Chocolate Wireframes (wireframes/Amaris chocolate_wireframes.pdf)
+
+I created wire frames for the project using Balsamiq and have included a link here to access them in pdf form.
+The wireframes were designed and built in Balsamiq . They can be viewed at the following links
 
 ## Design
 ### Colour Scheme
@@ -159,6 +164,7 @@ Bellow I will describe features in more details.
 - [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the website.
 - [CSS Tricks](https://css-tricks.com/) was used as a general source.
 - [W3School](https://www.w3schools.com/) was used as a general source as well as to create 'Back to Top Arrow' button using JavaScript
+- [Stackoverflow](https://stackoverflow.com/) was used as a general source.
 - [GitHub](https://github.com/) was used for repository hosting and for storing the source code.
 - [Gitpod](https://gitpod.io/) was used as the development environment for writing the code.
 - [Git](https://git-scm.com/) was used as version control system to add, commit and push code to GitHub.
@@ -175,7 +181,7 @@ Bellow I will describe features in more details.
 - [Coolors](https://coolors.co/) was used for colour palette used on the website.
 - [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 - [CorelDRAW Graphics Suite 2020](https://www.coreldraw.com/en/product/coreldraw/index-price.html) was used to edit CDR files and convert them to JPG images.
-- [CSS Autoprefixe](https://autoprefixer.github.io/) - was used for adding CSS vendor prefixes.
+- [CSS Autoprefixe](https://autoprefixer.github.io/) was used for adding CSS vendor prefixes.
 
 ## Validation
 - [W3C Markup Validation Service](https://validator.w3.org/) was used for Markup validation.
@@ -183,8 +189,8 @@ Bellow I will describe features in more details.
 - [JavaScript validator](https://www.piliapp.com/javascript-validator/) was used for JavaScript code validation.
 
 # Testing
-Please click here for full testing process
-
+Testing process was written in a separate file. 
+[Please click here for the full testing process](testing.md)
 # Deployment
 ## GitHub pages
 The project deployment to GitHub Pages is explained in the below steps:
