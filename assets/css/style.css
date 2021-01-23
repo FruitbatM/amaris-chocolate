@@ -6,7 +6,7 @@
 */
 
 /* Google Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600&family=Merriweather:ital,wght@0,300;0,400&display=swap');
 
 /* Navbar */
 .logo {
@@ -92,7 +92,8 @@
     margin-top: 14rem;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.8rem;
-    text-shadow: 0.2rem 0.2rem #45464785;
+                 
+    text-shadow: 0.2rem 0.2rem #d1d5da85;
 }
 #jumbo-text {
     text-align: center;
@@ -458,15 +459,16 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
         text-align: center;
         font-family: 'Merriweather', sans-serif;
         font-weight: 300;
-        font-size: 1.3rem;
-        text-shadow: 0.2rem 0.2rem #45464785;
+        font-size: 1.6rem;
+        text-shadow: 0.1rem #b89d9f;
     }
     .display-5 {
         text-align: center;
         margin-top: 17rem;
         font-family: 'Merriweather Sans', sans-serif;
-        font-size: 3.5rem;
-        text-shadow: 0.2rem 0.2rem #45464785;
+        font-size: 4.3rem;
+        font-weight: 500;
+        text-shadow: 0.1rem 0.1rem #b89d9f;
     }
     .our-story-text > p {
         font-size: 1.2rem;

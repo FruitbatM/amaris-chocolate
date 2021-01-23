@@ -2,10 +2,9 @@
 ## Table of Contents
 1. [User Stories Testing](#user-stories)
 2. [Code Validation](#code-validation)
-3. Encountered Issues
-4. Performance Testing
-5. Functionality Testing
-
+3. Functionality Testing
+4. Encountered Issues
+5. Performance Testing
 
 # User Stories Testing
 ## Visitor Stories
@@ -70,22 +69,41 @@ Every page of the project was validated by the [W3C Markup Validation Service](h
 ## [W3C Markup Validation Service](https://validator.w3.org/) - Markup Validation
 ### **Home page**
 - There are no errors or warnings. 
-
-    <h2><img src="readme-images/validator-index-html.jpg" alt"HTML Validation - Home page" target="_blank" width="60%" height="60%"></h2>
+    <h2 align="center"><img src="readme-images/validator-index-html.jpg" alt"HTML Validation - Home page" target="_blank" width="60%" height="60%"></h2>
 
 ### **Our Chocolate page**
-<h2><img src="readme-images/validator-our-chocolate-html.jpg" alt"HTML Validation - Our Chocolate page" target="_blank" width="60%" height="60%"></h2>
+- There are no errors, but three warnings are showing: _"Section lacks heading. Consider using h2-h6 elements"._
+    - This is a warning and not an error and the W3C validator will report a warning when no heading is used inside the section element. It is useful to provide a heading for each section element but it is not a requirement according to [W3C Proposed Recommendation](https://www.w3.org/TR/2014/PR-html5-20140916/sections.html#the-section-element).
+    <h2 align="center"><img src="readme-images/validator-our-chocolate-html.jpg" alt"HTML Validation - Our Chocolate page" target="_blank" width="60%" height="60%"></h2>
 
 ### **Our Story page**
-<h2><img src="readme-images/validator-our-story-html.jpg" alt"HTML Validation - Our Story page" target="_blank" width="60%" height="60%"></h2>
+- There are no errors, but two warnings are showing: _"Section lacks heading. Consider using h2-h6 elements"._
+    - This is a warning and not an error and the W3C validator will report a warning when no heading is used inside the section element. It is useful to provide a heading for each section element but it is not a requirement according to [W3C Proposed Recommendation](https://www.w3.org/TR/2014/PR-html5-20140916/sections.html#the-section-element).
+    <h2 align="center"><img src="readme-images/validator-our-story-html.jpg" alt"HTML Validation - Our Story page" target="_blank" width="60%" height="60%"></h2>
 
 ### **Contact Us page**
 - There are no errors or warnings. 
-    <h2><img src="readme-images/validator-contact-html.jpg" alt"HTML Validation - Contact Us page" target="_blank" width="60%" height="60%"></h2>
+    <h2 align="center"><img src="readme-images/validator-contact-html.jpg" alt"HTML Validation - Contact Us page" target="_blank" width="60%" height="60%"></h2>
 
 ## [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - CSS Validation
-<h2><img src="readme-images/validator-css.jpg" alt"CSS Validation" target="_blank" width="50%" height="50%"></h2>
+- There are no errors.
+- There are several warnings about the vendor prefixes which can be ignored.
+    <h2 align="center"><img src="readme-images/validator-css.jpg" alt"CSS Validation" target="_blank" width="50%" height="50%"></h2>
 
 ## [JavaScript validator](https://www.piliapp.com/javascript-validator/) - JavaScript Validation
-- There are no errors
-    <h2><img src="readme-images/js-validator.jpg" alt"JS Validation" target="_blank" width="50%" height="50%"></h2>
+- There are no errors.
+    <h2 align="center"><img src="readme-images/js-validator.jpg" alt"JS Validation" target="_blank" width="50%" height="50%"></h2>
+
+# Functionality Testing
+
+Checking for broken links - each page
+Form validation
+
+
+# Encountered Issues
+
+Bugs & issues
+
+# Performance Testing
+
+Lighthouse
