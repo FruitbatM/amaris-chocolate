@@ -91,16 +91,16 @@
     text-align: center;
     margin-top: 14rem;
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 1.8rem;
-                 
-    text-shadow: 0.2rem 0.2rem #d1d5da85;
+    font-size: 2.2rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 0.1rem 0.1rem #b89d9f;
 }
 #jumbo-text {
     text-align: center;
     font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     font-size: 1rem;
-    text-shadow: 0.2rem 0.2rem #45464785;
+    text-shadow: 0.1rem 0.1rem #b89d9f;
 }
 /* Remove the gap between jumbotron and 'Our chocolate' section */
 .jumbotron {
@@ -423,16 +423,20 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
         text-align: center;
         font-family: 'Merriweather', sans-serif;
         font-weight: 300;
-        font-size: 1.2rem;
-        text-shadow: 0.2rem 0.2rem #45464785;
+        font-size: 1.4rem;
+        letter-spacing: 0.05rem;
+        text-shadow: 0.1rem 0.1rem #b89d9f;
     }
     .display-5 {
         text-align: center;
         margin-top: 25rem;
         font-family: 'Merriweather Sans', sans-serif;
-        font-size: 3rem;
-        text-shadow: 0.2rem 0.2rem #45464785;
+        font-size: 3.4rem;
+        font-weight: 400;
+        letter-spacing: 0.2rem;
+        text-shadow: 0.2rem 0.2rem #b89d9f;
     }
+
     /* Adjusting top padding to have additional space */
     .container-m {
         padding-top: 1.5rem !important;
@@ -460,6 +464,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
         font-family: 'Merriweather', sans-serif;
         font-weight: 300;
         font-size: 1.6rem;
+        letter-spacing: 0.07rem;
         text-shadow: 0.1rem #b89d9f;
     }
     .display-5 {
@@ -468,6 +473,7 @@ https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
         font-family: 'Merriweather Sans', sans-serif;
         font-size: 4.3rem;
         font-weight: 500;
+        letter-spacing: 0.3rem;
         text-shadow: 0.1rem 0.1rem #b89d9f;
     }
     .our-story-text > p {
