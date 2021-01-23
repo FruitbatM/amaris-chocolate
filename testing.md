@@ -69,8 +69,9 @@ Every page of the project was validated by the [W3C Markup Validation Service](h
 
 ## [W3C Markup Validation Service](https://validator.w3.org/) - Markup Validation
 ### **Home page**
+- There are no errors or warnings. 
 
-<h2><img src="readme-images/validator-index-html.jpg" alt"HTML Validation - Home page" target="_blank" width="60%" height="60%"></h2>
+    <h2><img src="readme-images/validator-index-html.jpg" alt"HTML Validation - Home page" target="_blank" width="60%" height="60%"></h2>
 
 ### **Our Chocolate page**
 <h2><img src="readme-images/validator-our-chocolate-html.jpg" alt"HTML Validation - Our Chocolate page" target="_blank" width="60%" height="60%"></h2>
@@ -79,11 +80,12 @@ Every page of the project was validated by the [W3C Markup Validation Service](h
 <h2><img src="readme-images/validator-our-story-html.jpg" alt"HTML Validation - Our Story page" target="_blank" width="60%" height="60%"></h2>
 
 ### **Contact Us page**
-<h2><img src="readme-images/validator-contact-html.jpg" alt"HTML Validation - Contact Us page" target="_blank" width="60%" height="60%"></h2>
+- There are no errors or warnings. 
+    <h2><img src="readme-images/validator-contact-html.jpg" alt"HTML Validation - Contact Us page" target="_blank" width="60%" height="60%"></h2>
 
 ## [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - CSS Validation
-
-![CSS Validation]()
+<h2><img src="readme-images/validator-css.jpg" alt"CSS Validation" target="_blank" width="50%" height="50%"></h2>
 
 ## [JavaScript validator](https://www.piliapp.com/javascript-validator/) - JavaScript Validation
-<h2><img src="readme-images/js-validator.jpg" alt"JS Validation" target="_blank" width="50%" height="50%"></h2>
+- There are no errors
+    <h2><img src="readme-images/js-validator.jpg" alt"JS Validation" target="_blank" width="50%" height="50%"></h2>

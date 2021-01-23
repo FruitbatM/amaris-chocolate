@@ -67,15 +67,12 @@ The project is developed primarily using HTML and CSS programs, with a small amo
 
 ## Structure
 Amaris Chocolate website is designed to be elegant, consistent and user friendly.
-    - Interaction Design
-    - Information Design
+- Interaction Design
+- Information Design
 
 ## Skeleton
 The wireframes were created in [Balsamiq](https://balsamiq.com/).
-Please view the wireframes for desktop, tablet and mobile screens on the following link: Amaris Chocolate Wireframes (wireframes/Amaris chocolate_wireframes.pdf)
-
-I created wire frames for the project using Balsamiq and have included a link here to access them in pdf form.
-The wireframes were designed and built in Balsamiq . They can be viewed at the following links
+Please view the wireframes for desktop, tablet and mobile screens on the following link: [Amaris Chocolate wireframes](wireframes/ac­wireframes.pdf).
 
 ## Design
 ### Colour Scheme
