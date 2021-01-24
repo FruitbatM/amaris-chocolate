@@ -4,7 +4,7 @@
 
 [Please view the live project here](https://fruitbatm.github.io/amaris-chocolate/)
 
-<h2 align="center"><img src="readme-images/techsini-mockup.jpg" target="_blank"></h2>
+<h2 align="center"><img src="readme-images/techsini-mockup.jpg" target="_blank" width="75%" height="75%"></h2>
 
 Mockup responsive image was created with [Techsini](http://techsini.com/multi-mockup/index.php).
 
@@ -14,7 +14,7 @@ Mockup responsive image was created with [Techsini](http://techsini.com/multi-mo
 >    - [User Stories](#user-stories)
 >       - [Visitor Stories](#visitor-stories)
 >       - [Business Stories](business-stories)
->    - Structure
+>    - [Structure](#structure)
 >    - [Skeleton](#skeleton)
 >        - [Wireframes](#wireframes)
 >    - [Design](#design)
@@ -236,7 +236,7 @@ The project deployment to GitHub Pages is explained in the below steps:
 Below websites were used for a general layout inspiration:
 - [HOLY CACAO](https://www.holycacao.co.il/)
 - [JOJO's](https://jojoschocolate.com/)
-- All content was written by myself
+- The text for Our Chocolate was adapted from [green to bar chocolate](https://greenchocolate.jp/what_is_bean_to_bar/?lang=en)
 
 # Acknowledgements
 - My mentor, Mr. Spencer Barriball, for the helpful feedback and guidance.

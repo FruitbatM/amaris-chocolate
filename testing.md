@@ -64,41 +64,46 @@
 
 # Code Validation
 Every page of the project was validated by the [W3C Markup Validation Service](https://validator.w3.org/) to ensure there were no syntax errors or issues. 
+<br>
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate CSS code.
+<br>
 [JavaScript validator](https://www.piliapp.com/javascript-validator/) was used for validation of short JavaScript code snippet.
 
 ## [W3C Markup Validation Service](https://validator.w3.org/) - Markup Validation
 ### **Home page**
 - There are no errors or warnings. 
-    <h2 align="center"><img src="readme-images/validator-index-html.jpg" alt"HTML Validation - Home page" target="_blank" width="60%" height="60%"></h2>
+    <h2 align="center"><img src="readme-images/validator-index-html.jpg" alt="HTML Validation - Home page" target="_blank" width="60%" height="60%"></h2>
 
 ### **Our Chocolate page**
 - There are no errors, but three warnings are showing: _"Section lacks heading. Consider using h2-h6 elements"._
     - This is a warning and not an error and the W3C validator will report a warning when no heading is used inside the section element. It is useful to provide a heading for each section element but it is not a requirement according to [W3C Proposed Recommendation](https://www.w3.org/TR/2014/PR-html5-20140916/sections.html#the-section-element).
-    <h2 align="center"><img src="readme-images/validator-our-chocolate-html.jpg" alt"HTML Validation - Our Chocolate page" target="_blank" width="60%" height="60%"></h2>
+    <h2 align="center"><img src="readme-images/validator-our-chocolate-html.jpg" alt="HTML Validation - Our Chocolate page" target="_blank" width="60%" height="60%"></h2>
 
 ### **Our Story page**
 - There are no errors, but two warnings are showing: _"Section lacks heading. Consider using h2-h6 elements"._
     - This is a warning and not an error and the W3C validator will report a warning when no heading is used inside the section element. It is useful to provide a heading for each section element but it is not a requirement according to [W3C Proposed Recommendation](https://www.w3.org/TR/2014/PR-html5-20140916/sections.html#the-section-element).
-    <h2 align="center"><img src="readme-images/validator-our-story-html.jpg" alt"HTML Validation - Our Story page" target="_blank" width="60%" height="60%"></h2>
+    <h2 align="center"><img src="readme-images/validator-our-story-html.jpg" alt="HTML Validation - Our Story page" target="_blank" width="60%" height="60%"></h2>
 
 ### **Contact Us page**
 - There are no errors or warnings. 
-    <h2 align="center"><img src="readme-images/validator-contact-html.jpg" alt"HTML Validation - Contact Us page" target="_blank" width="60%" height="60%"></h2>
+    <h2 align="center"><img src="readme-images/validator-contact-html.jpg" alt="HTML Validation - Contact Us page" target="_blank" width="60%" height="60%"></h2>
 
 ## [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - CSS Validation
 - There are no errors.
 - There are several warnings about the vendor prefixes which can be ignored.
-    <h2 align="center"><img src="readme-images/validator-css.jpg" alt"CSS Validation" target="_blank" width="50%" height="50%"></h2>
+    <h2 align="center"><img src="readme-images/validator-css.jpg" alt="CSS Validation" target="_blank" width="50%" height="50%"></h2>
 
 ## [JavaScript validator](https://www.piliapp.com/javascript-validator/) - JavaScript Validation
 - There are no errors.
-    <h2 align="center"><img src="readme-images/js-validator.jpg" alt"JS Validation" target="_blank" width="50%" height="50%"></h2>
+    <h2 align="center"><img src="readme-images/js-validator.jpg" alt="JS Validation" target="_blank" width="50%" height="50%"></h2>
 
 # Functionality Testing 
 Feature testing - each page section
-Responsive Layout 
+<br>
 Checking for broken links - each page
+<br>
+Responsive Layout 
+<br>
 Form validation
 
 ## Browser Testing
@@ -109,6 +114,7 @@ Form validation
     - Microsoft Edge
     - Safari
     - Chrome for Android
+    - Samsung Internet 
 
 I didn't encounter any issue, the website is fully functioning and fully responsive on all above mentioned browsers. 
 
@@ -134,9 +140,8 @@ The result was consistent, website is platform-cross compatible.
 Bugs & issues
 
 # Performance Testing
-
 Lighthouse
-Accessibility, Performance, Progressive Web Apps, and Best Practices Audit:
+<br>
+Accessibility, Performance
 
-
-Click here to return to the main README.md.
+Click here to return to the main [README.md](README.md)
