@@ -4,9 +4,9 @@
 
 [Please view the live project here](https://fruitbatm.github.io/amaris-chocolate/)
 
-<h2 align="center"><img src="readme-images/Am I responsive_screenshot.jpg" target="_blank"></h2>
+<h2 align="center"><img src="readme-images/techsini-mockup.jpg" target="_blank"></h2>
 
-Above mockup responsive image was created by [Am I responsive](http://ami.responsivedesign.is/).
+Mockup responsive image was created with [Techsini](http://techsini.com/multi-mockup/index.php).
 
 ## Table of Contents
 > 1. [Overview](#overview)
@@ -66,12 +66,22 @@ The project is developed primarily using HTML and CSS programs, with a small amo
 5. As a business owner, I would like to increase the sales.
 
 ## Structure
-Amaris Chocolate website is designed to be elegant, consistent and user friendly.
+Amaris Chocolate website is designed to be effective, consistent and user friendly.
 - Interaction Design
-- Information Design
+    - Consistent design will be used throughout the website to maintain a good UX.
+    - The simple navigation bar with effective jumbotron background image will make the website look simple and attractive.
+    - The navigation links when hovered over will provide a visual indication to the site visitors what they are selecting.
+    - Animation effect will be used on some page headings to create more engaging website.
+    - Consistent color scheme will be used to let visitors focus on the chocolate and for increasing product sales. 
+
+- Information Architecture (IA)
+    - The project was conceptualized to consist of a home page and equally important three sub-pages. This structure was used because it is simple and familiar to the site visitors and it is sufficient for most user cases. 
+    - On the home page which consists of three main sections, the visitor will have a brief review of the entire webpage. From each section, the user can easily navigate to other sub-pages by clicking the button/s which are 
+    conveniently located at the centered bottom position of each home page section. In this was the user will never have to make more then three clicks to access the information she/he is looking for.
+    - The content is organized and categorized by importance from top to bottom (home page and sub-pages) and left to right (navigation).
 
 ## Skeleton
-The wireframes were created in [Balsamiq](https://balsamiq.com/).
+The initial webpage layouts were sketched on the paper. Upon agreement of the layout and hierarchy, the wireframes were created in [Balsamiq](https://balsamiq.com/).
 Please view the wireframes for desktop, tablet and mobile screens on the following link: [Amaris Chocolate wireframes](wireframes/ac­wireframes.pdf).
 
 ## Design
@@ -168,7 +178,6 @@ Bellow I will describe features in more details.
 - [Adobe Photoshop Express](https://photoshop.adobe.com/) was used for resizing and cropping the images used on the website.
 - [Can I Use](https://caniuse.com/) was used as a general resource.
 - [TinyJPG](https://tinyjpg.com/) was used for compressing images while preserving transparency.
-- [Am I responsive](http://ami.responsivedesign.is/)
 - [Techsini](http://techsini.com/multi-mockup/index.php) was used to create the responsive mockup image.
 - [Shutterstock](https://www.shutterstock.com/) was used to download the images for the site.
 - [Unsplash](https://unsplash.com/) was used to download the images for the site.
