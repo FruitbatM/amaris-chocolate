@@ -133,11 +133,51 @@ I didn't encounter any issue, the website is fully functioning and fully respons
 
 The result was consistent, website is platform-cross compatible.
 
-
-
 # Encountered Issues
+Several bugs were encountered during the coding process:
+- The 'navbar-toggler' (hamburger icon) wasn't inline with the logo on iPhone5. 
+    <h2 align="center"><img src="readme-images/bug-iphone5.jpg" alt="iPhone5 hamburger icon" target="_blank" width="35%" height="35%"></h2>
 
-Bugs & issues
+    - **Fixed** by adding the media query for screen size min-width of 320px and by adding the following css code:
+    ```
+    @media only screen and (min-width: 320px) and (max-width: 568px)
+    and (-webkit-device-pixel-ratio: 2) and (min-aspect-ratio: 40/71) and (orientation:portrait) {
+        .logo {
+        width: 45px;
+        height: 45px;
+        }
+        .navbar-brand {
+            margin-left: 0.2rem !important;
+        }
+        .navbar-text {
+            margin-left: 0.2rem !important;
+            font-size: 1.1rem;
+        }
+    }
+    ```
+    Media queries for the iPhone5 were found on the following article: [Coderwall](https://coderwall.com/p/mwvbea/media-queries-only-for-the-iphone-5-part-i).
+    In the article it states 'min-device-width' and 'max-device-width' which was in the meantime depreciated, so I replaced it with ```min-width``` and ```max-width``` and it passed validation.
+
+- Full screen height issue on contact.html page on tablet devices ('min-width: 764px'). The gap was showing between the bottom of the page and footer section.
+    - **Fixed** by adding the following css code:
+    ```
+    .contact-section {
+        padding: 8rem 0;
+        min-height: 100vh;
+    }
+    ```
+    Following article was helpful in fixing this issue: [Fullscreen height](http://webandapp.fr/blog/2017/09/fullscreen-height-issue-reopened/).
+
+- Logo on the navigation bar was upload with the space in the name which is not allowed - space is not allowed for attribute ```src``` on element ```img```.
+    <h2 align="center"><img src="readme-images/bug-logo-name.jpg" alt="incorrect logo name" target="_blank" width="35%" height="35%"></h2>
+
+    - **Fixed** by deleting the logo image from the repository, correcting the name without the space (adding hyphen) and again uploading the image.
+
+- Small white space was showing on the left and right side of jumbotron background image.
+    - **Fixed** by uploading the larger image. This didn't impact the website performance since all used images were compressed.
+
+- Favicon icon wasn't showing on contact.html page. 
+    - **Fixed** by adding correct file path. 
 
 # Performance Testing
 Lighthouse

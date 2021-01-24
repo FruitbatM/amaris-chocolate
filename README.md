@@ -225,7 +225,6 @@ The project deployment to GitHub Pages is explained in the below steps:
     - to create 'Back to Top Arrow' using JavaScript - credit was given in scroll.js file
     - for Badge creation and placement - credit was given in style.css file
     - as a general resource
-- [CSS Tricks](https://css-tricks.com/) was used as a general resource.
 - [Animate.css](https://animate.style/) was used for CSS animation of heading in 'Our Chocolate' and 'Our Story' pages.
 - [Coderwall](https://coderwall.com/) was used for media queries for iPhone 5 - credit was given in style.css file.
 ## Media
