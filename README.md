@@ -10,19 +10,17 @@ Mockup responsive image was created with [Techsini](http://techsini.com/multi-mo
 
 ## Table of Contents
 > 1. [Overview](#overview)
-> 2. [User Experience (UX)](#user-experience)
+> 2. [User Experience UX](#user-experience-ux)
 >    - [User Stories](#user-stories)
 >       - [Visitor Stories](#visitor-stories)
->       - [Business Stories](business-stories)
+>       - [Business Stories](#business-stories)
 >    - [Structure](#structure)
 >    - [Skeleton](#skeleton)
->        - [Wireframes](#wireframes)
 >    - [Design](#design)
 >       - [Colour Scheme](#colour-scheme)
 >       - [Fonts](#fonts)
 >       - [Imagery](#imagery)
 >       - [Icons](#icons)
->       - [Design difference](#design-difference)
 > 3. [Features](#features)
 >       - [Existing Features](#existing-features)
 >       - [Future Implementation](#future-implementation)
@@ -30,7 +28,6 @@ Mockup responsive image was created with [Techsini](http://techsini.com/multi-mo
 > 5. [Testing](#testing)
 > 6. [Deployment](#deployment)
 >    - [GitHub pages](#github-pages)
->    - Making a Local Clone
 > 7. [Credits](#credits)
 >    - [Code](#code)
 >    - [Media](#media)
@@ -39,7 +36,7 @@ Mockup responsive image was created with [Techsini](http://techsini.com/multi-mo
 > 9. [Disclaimer](#disclaimer)
 
 # Overview
-This is a website for **Amaris Chocolate**, an existing small producer of handcrafted bean to to bar dark chocolates from Croatia.
+This is a website for **Amaris Chocolate**, an existing small producer of handcrafted bean to bar dark chocolates from Croatia.
 Their chocolates are made with the high percentage of cocoa parts (70% or more). Bean to Bar chocolate production is a specific method of 
 chocolate crafting practiced by chocolate makers that are involved at every stage of the process that the cacao bean goes through.
 
@@ -69,20 +66,20 @@ The project is developed primarily using HTML and CSS programs, with a small amo
 Amaris Chocolate website is designed to be effective, consistent and user friendly.
 - Interaction Design
     - Consistent design will be used throughout the website to maintain a good UX.
-    - The simple navigation bar with effective jumbotron background image will make the website look simple and attractive.
-    - The navigation links when hovered over will provide a visual indication to the site visitors what they are selecting.
+    - The simple navigation bar with effective jumbotron background image will make the website look elegant and attractive.
+    - The navigation links when hovered over will provide a visual indication to the site visitor what she/he is selecting.
     - Animation effect will be used on some page headings to create more engaging website.
     - Consistent color scheme will be used to let visitors focus on the chocolate and for increasing product sales. 
 
 - Information Architecture (IA)
     - The project was conceptualized to consist of a home page and equally important three sub-pages. This structure was used because it is simple and familiar to the site visitors and it is sufficient for most user cases. 
     - On the home page which consists of three main sections, the visitor will have a brief review of the entire webpage. From each section, the user can easily navigate to other sub-pages by clicking the button/s which are 
-    conveniently located at the centered bottom position of each home page section. In this was the user will never have to make more then three clicks to access the information she/he is looking for.
+    conveniently located at the centered bottom position of each home page section. In this way the user will never have to make more than three clicks to access the information she/he is looking for.
     - The content is organized and categorized by importance from top to bottom (home page and sub-pages) and left to right (navigation).
 
 ## Skeleton
 The initial webpage layouts were sketched on the paper. Upon agreement of the layout and hierarchy, the wireframes were created in [Balsamiq](https://balsamiq.com/).
-Please view the wireframes for desktop, tablet and mobile screens on the following link: [Amaris Chocolate wireframes](wireframes/ac­wireframes.pdf).
+Please view the wireframes for desktop, tablet and mobile screens on the following link: [Amaris Chocolate wireframes](https://github.com/FruitbatM/amaris-chocolate/blob/master/wireframes/acwireframes.pdf).
 
 ## Design
 ### Colour Scheme
@@ -93,7 +90,7 @@ Also, since the dark brown colour is represented in [Amaris Chocolate's](https:/
 - A Caput Mortuum colour (#5C3324) was used for navigation and footer sections. Fot the text, I used Dark Sienna colour (#38160D) and for the headings, Black Bean colour (#411D13).
 For the background I used Linen (#F5E8E1) colour which I alternated with the white colour to create defined sections when scrolling through the website. Furthermore, the light background works well with the dark brown text due to its contrast.
 
-- For the buttons I used Coffee (#774936) colour and for the button hover effect I used Liver Chesnut (#916750) in order to indicate the user that the element is clickable and for the better appearance. 
+- For the buttons I used Coffee (#774936) colour and for the button hover effect I used Liver Chesnut (#916750) to indicate the user that the element is clickable and for the better appearance. 
 - [Coolors](https://coolors.co/) was used to create a colour palette.
 
 ![Colour Palette](readme-images/colour-palette.jpg)
@@ -109,15 +106,14 @@ For the background I used Linen (#F5E8E1) colour which I alternated with the whi
 - For the website I used impactful images with chocolate and cocoa beans motives to promote Amaris Chocolate brand & products, to attract the user's attention and to try to influence the need to make a purchase.
 All images are sized and compressed for the best user experience.
 
-- I paid attention that the images match the captions and are labeled with keywords important to the website content in order to improve onsite SEO.
+- I paid attention that the images match the captions and are labeled with keywords important to the website content to improve onsite SEO.
 
 - The images were sourced from the below stock photography websites:
     - [Shutterstock](https://www.shutterstock.com/)*
     - [Unsplash](https://unsplash.com/)*
     - [Flickr](https://www.flickr.com/)*
     - Images provided by the company owner*
-    <br>
-*source and credit for all images used is referenced in the code
+    *source and credit for all images used is referenced in the code
 ### Icons
 - I used several icons to improve the website's UX from:
     - [Font Awesome](https://fontawesome.com/)
@@ -126,12 +122,12 @@ All images are sized and compressed for the best user experience.
 # Features
 Amaris Chocolate is built to be fully responsive mobile-first website. This was primarily achieved by utilizing the Bootstrap's grid system.
 The website consists of four pages: 'home' (landing), 'our chocolate', 'our story' and 'contact us' page. All website pages have a fixed navbar and footer, with Back to top arrow button ('arrow 2 top') button which allows the user to easily navigate to the top of each page.
-Bellow I will describe features in more details.
+Bellow I describe features in more details.
 
 ## Existing Features
 - Navigation bar
     - The navigation bar is fixed on top on all website pages and it allows the users to easily navigate throughout the website.
-    - It is fully responsive and it collapses to navbar-toggler-icon (hamburger menu) on medium and small devices.
+    - It is fully responsive, and it collapses to navbar-toggler-icon (hamburger menu) on medium and small devices.
 - Responsive
     - By using the mobile-first design, the website is built to be fully responsive. 
 - Jumbotron
@@ -139,7 +135,7 @@ Bellow I will describe features in more details.
 - Interactive
     - Text animation added to 'our chocolate' and ' our story' page headers.
     - Drop-down navbar on medium and small devices.
-    - Back to top arrow button appears on the lower right of the page when the user start to scroll down a page.
+    - Back to top arrow button appears on the lower right of the page when the user starts to scroll down a page.
 - List of chocolate bars
     - It allows users to learn about the company's products and have an option to order the same via contact form.
 - Contact information
@@ -147,7 +143,7 @@ Bellow I will describe features in more details.
 - Footer
     - Allows users to contact the company via email or phone. 
     - Social media icons with links allow users to find more information about the company on social media.
-- Accessability
+
 ## Future Implementation
 - Creating 404 error page
 - Contact form processing
@@ -160,17 +156,17 @@ Bellow I will describe features in more details.
 ## Languages
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) was used as the main language to _complete the structure of the website_.
 - [CSS3](https://en.wikipedia.org/wiki/CSS) was used to style the website.
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was used to create 'Back To Top Arrow' button functionality
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was used to create 'Back To Top Arrow' button functionality.
 
 ## Frameworks, Libraries and Tools
 - [Bootstrap v.4.5.](https://getbootstrap.com/docs/4.5/getting-started/introduction/) was used to create the navbar and contact form as well to make the website responsive.
 - [Favicon](https://favicon.io/favicon-converter/) was used to create the favicon for the website.
 - [Font Awesome](https://fontawesome.com/) icons were used in footer section for design features and better user experience.
-- [Flaticon](https://www.flaticon.com/) was used to download several icons on the website.
+- [Flaticon](https://www.flaticon.com/) was used to download several icons for 'Our Chocolate' page.
 - [Google Fonts](https://fonts.google.com/) was used to import the fonts to the website.                             
 - [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the website.
 - [CSS Tricks](https://css-tricks.com/) was used as a general source.
-- [W3School](https://www.w3schools.com/) was used as a general source as well as to create 'Back to Top Arrow' button using JavaScript
+- [W3School](https://www.w3schools.com/) was used as a general source as well as to create 'Back to Top Arrow' button using JavaScript.
 - [Stackoverflow](https://stackoverflow.com/) was used as a general source.
 - [GitHub](https://github.com/) was used for repository hosting and for storing the source code.
 - [Gitpod](https://gitpod.io/) was used as the development environment for writing the code.
@@ -185,7 +181,8 @@ Bellow I will describe features in more details.
 - [Flaticon](https://www.flaticon.com/) was used to download icons for the site.
 - [Animate.css](https://animate.style/) was used as a source for adding CSS animation on headings.
 - [Coolors](https://coolors.co/) was used for colour palette used on the website.
-- [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+- [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) was used to test and debug the code.
+- [BrowserLing](https://www.browserling.com/) was used for cross-browser testing.
 - [CorelDRAW Graphics Suite 2020](https://www.coreldraw.com/en/product/coreldraw/index-price.html) was used to edit CDR files and convert them to JPG images.
 - [CSS Autoprefixe](https://autoprefixer.github.io/) was used for adding CSS vendor prefixes.
 - [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker) was used to check the spelling of the webpage.
@@ -197,7 +194,8 @@ Bellow I will describe features in more details.
 
 # Testing
 Testing process was written in a separate file. 
-[Please click here for the full testing process](testing.md)
+[Please click here for the full testing process](testing.md).
+
 # Deployment
 ## GitHub pages
 The project deployment to GitHub Pages is explained in the below steps:
@@ -208,7 +206,7 @@ The project deployment to GitHub Pages is explained in the below steps:
 
 2. At the top of the Repository page, under the sub-headings, select "Settings" button.
 
-    *Add screenshot
+    ![Repositories](readme-images/repository-settings.jpg)
 
 3. Scroll down the page until you reach "GitHub Pages" section.
 4. Under the "Source" sub-section, select "master" branch.
@@ -227,15 +225,18 @@ The project deployment to GitHub Pages is explained in the below steps:
     - as a general resource
 - [Animate.css](https://animate.style/) was used for CSS animation of heading in 'Our Chocolate' and 'Our Story' pages.
 - [Coderwall](https://coderwall.com/) was used for media queries for iPhone 5 - credit was given in style.css file.
+
 ## Media
 - [Shutterstock](https://www.shutterstock.com/)
 - [Unsplash](https://unsplash.com/)
+- [Flickr](https://www.flickr.com/)
 - [Font Awesome](https://fontawesome.com/)
+
 ## Content
 Below websites were used for a general layout inspiration:
 - [HOLY CACAO](https://www.holycacao.co.il/)
 - [JOJO's](https://jojoschocolate.com/)
-- The text for Our Chocolate was adapted from [green to bar chocolate](https://greenchocolate.jp/what_is_bean_to_bar/?lang=en)
+- The text for Our Chocolate was adapted from [green to bar chocolate](https://greenchocolate.jp/what_is_bean_to_bar/?lang=en).
 
 # Acknowledgements
 - My mentor, Mr. Spencer Barriball, for the helpful feedback and guidance.

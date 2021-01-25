@@ -63,15 +63,13 @@
 
 # Code Validation
 - Every page of the project was validated by the [W3C Markup Validation Service](https://validator.w3.org/) to ensure there were no syntax errors or issues. 
-<br>
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate CSS code.
-<br>
 - [JavaScript validator](https://www.piliapp.com/javascript-validator/) was used for validation of short JavaScript code snippet.
 
 ## [W3C Markup Validation Service](https://validator.w3.org/) - Markup Validation
 ### **Home page**
 - There are no errors or warnings. 
-    <h2 align="center"><img src="readme-images/validator-index-html.jpg" alt="HTML Validation - Home page" target="_blank" width="60%" height="60%"></h2>
+    <h2 align="center"><img src="readme-images/validator-index-html.jpg" alt="HTML Validation - Home page" target="_blank" width="40%" height="40%"></h2>
 
 ### **Our Chocolate page**
 - There are no errors, but three warnings are showing: _"Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections"._
@@ -198,7 +196,6 @@ Several bugs were encountered during the coding process:
 
 - Full screen height issue on contact.html page on tablet devices ('min-width: 764px'). The gap was showing between the bottom of the page and footer section.
     - **Fixed** by adding the following css code:
-    <br>
     ```
     .contact-section {
         padding: 8rem 0;
@@ -222,7 +219,7 @@ Several bugs were encountered during the coding process:
 Performance was tested using [Lighthouse](https://developers.google.com/web/tools/lighthouse) tool.
 
 ## Home page
-<h2 align="center"><img src="readme-images/lighthouse-home-performan.jpg" alt="lighthouse performance for home page" target="_blank" width="60%" height="60%"></h2>
+<h2 align="center"><img src="readme-images/lighthouse-home-performan.jpg" alt="lighthouse performance for home page" target="_blank" width="45%" height="45%"></h2>
 
 The results were somewhat different every time. Following article [Why are my Lighthouse scores different from my other test results?](https://support.speedcurve.com/en/articles/4088236-why-are-my-lighthouse-scores-different-from-my-other-test-results#:~:text=The%20performance%20score%20is%20strongly,cause%20variability%20in%20your%20scores.) gives 
 explanation on Lighthouse that "the performance score is strongly influenced by Time to Interactive (TTI) 
@@ -232,21 +229,21 @@ and runtime settings."
 The performance results are satisfying as the home page is heavy loaded with the content.
 
 ## Our Chocolate page
-<h2 align="center"><img src="readme-images/lighthouse-chocolate.jpg" alt="lighthouse performance for our chocolate page" target="_blank" width="60%" height="60%"></h2>
+<h2 align="center"><img src="readme-images/lighthouse-chocolate.jpg" alt="lighthouse performance for our chocolate page" target="_blank" width="45%" height="45%"></h2>
 
 The performance results are satisfying as the home page is heavy loaded with the content, especially images.
 
 ## Our Story page
-<h2 align="center"><img src="readme-images/lighthouse-story.jpg" alt="lighthouse performance for our story page" target="_blank" width="60%" height="60%"></h2>
+<h2 align="center"><img src="readme-images/lighthouse-story.jpg" alt="lighthouse performance for our story page" target="_blank" width="45%" height="45%"></h2>
 
 The performance results are satisfying as the home page is heavy loaded with the content, especially images.
 
 ## Contact Us page
-<h2 align="center"><img src="readme-images/lighthouse-contact.jpg" alt="lighthouse performance for contact us page" target="_blank" width="60%" height="60%"></h2>
+<h2 align="center"><img src="readme-images/lighthouse-contact.jpg" alt="lighthouse performance for contact us page" target="_blank" width="45%" height="45%"></h2>
 
 The performance results are very satisfying. The performance value is much higher on this page since the page is no heavy on content.
 
-I have consulted with my mentor regarding the performance results and he advised that the performance test results are satisfying.
+I have consulted with my mentor regarding the performance results and he advised that the performance test results are overall satisfying.
 <br>
 
 ## Accessibility
