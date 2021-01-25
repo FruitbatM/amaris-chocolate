@@ -2,23 +2,23 @@
 ## Table of Contents
 1. [User Stories Testing](#user-stories)
 2. [Code Validation](#code-validation)
-3. [Functionality Testing]()
+3. [Functionality Testing](#functionality-testing)
 4. [Encountered Issues](#encountered-issues)
-5. [Performance Testing]()
+5. [Performance Testing](#performance-testing)
 
 # User Stories Testing
 ## Visitor Stories
 - **As a site visitor, I would like to learn more about the company and what products the company offers.**
-    - The main goal of the website was to promote the company and its products. On the landing page, a visitor can immediately find a brief information about the brand and about chocolate bars they produce and offer.
-    By clicking on "read more" button under "Our Chocolate" and "Our Story" sections, the user will be redirected to these pages where he/she will be able to find more information. Also, these pages are easily accessible
+    - The main goal of the website was to promote Amaris Chocolate company and its products. On the landing page, a visitor can immediately find a brief information about the brand and about the chocolate bars they produce and offer.
+    By clicking on "read more" button under "Our Chocolate" and "Our Story" sections, the user will be directed to these pages where he/she will be able to find more information. Also, these pages are easily accessible
     from the top navigation bar. 
 
 - **As a site visitor, I would like to easily navigate through the site and find what I'm looking for with an ease.**
     - From the fixed top navigation bar, a user can easily access all other pages.
     - Since the website has a responsive navigation bar, it collapses on small and medium devices to navbar-toggler-icon (hamburger menu) which gives the user an opportunity for easy access to all pages on mentioned devices.  
-    - On the landing (home) page, under each section there is a button that directs the user to the respective pages.
-    - Back to top arrow button appears on the lower right of page when the user start to scroll down a page. Once clicked, it jumps to the top or the webpage.
-    - Clicking on the company logo located on top left of each page, the user is taken to the home page.
+    - On the home (landing) page, under each section there is a "Read more" button that directs the user to the respective pages.
+    - A feature Back to top arrow button appears on the lower right of page when the user start to scroll down a page. Once clicked, it jumps to the top or the webpage.
+    - Clicking on the company logo and title located on top left of each page, the user is taken to the home page.
 
 - **As a site visitor, I would like to contact the company if I might have any enquires.**
     - In the footer section, the company's contact details (email and telephone number) are visible to a site visitor. 
@@ -45,28 +45,28 @@
     - When the visitor enters the webpage, jumbotron background image attracts immediate attention and headline clearly states what the company does.
     - The visitor is able to get the information they need quickly and easily.
     - The website is built by using the mobile-first design and as such is fully responsive and has better compatibility between different screen sizes.
-    - Attractive images were used throughout the website
+    - Attractive images were used throughout the website.
 
 - **As a business owner, I want the website users to be able to find information about our company and products easily.**
     - On the landing page, a user can easily find an information about the company and the chocolate bars they offer. Additional information is visible on the separate pages with clear navigation paths within webpages.
 
 - **As a business owner, I would like to expand our existing market.**
-    - Before launching the website, the business owner was present only on social media platforms (Facebook and Instagram). With the website launching he will have the wider audience and opportunity to connect with new customers.
+    - Before launching the website, the business owner was present only on social media platforms (Facebook and Instagram). With the website launch he will have the wider audience and opportunity to connect with new customers.
 
 - **As a business owner, I would like for the users to have an option to order our handcrafted chocolates.**
-    - The order can be made by clicking the "click to order button" which is located on the landing page as well as under "Our Chocolate" webpage.
+    - The order can be made by clicking the "click to order button" which is located on the home page as well as under "Our Chocolate" page.
     When the button is clicked, the visitor is directed to contact form located under the "Contact Us" page.
-    - The site visitor can make an order by contacting the business owner via social media links located at the bottom of all webpages.
+    - The site visitor can make an order by contacting the business owner via social media links located at the bottom of all webpages or by sending a direct email.
 
 - **As a business owner, I would like to increase the sales.**
     - This business story is not measurable in current form. The one can suspect the sales will increase by launching the website but without the shopping cart and payment gateway functionality it is difficult to predict the site visitors will make the orders via contact form.
 
 # Code Validation
-Every page of the project was validated by the [W3C Markup Validation Service](https://validator.w3.org/) to ensure there were no syntax errors or issues. 
+- Every page of the project was validated by the [W3C Markup Validation Service](https://validator.w3.org/) to ensure there were no syntax errors or issues. 
 <br>
-[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate CSS code.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate CSS code.
 <br>
-[JavaScript validator](https://www.piliapp.com/javascript-validator/) was used for validation of short JavaScript code snippet.
+- [JavaScript validator](https://www.piliapp.com/javascript-validator/) was used for validation of short JavaScript code snippet.
 
 ## [W3C Markup Validation Service](https://validator.w3.org/) - Markup Validation
 ### **Home page**
@@ -74,12 +74,12 @@ Every page of the project was validated by the [W3C Markup Validation Service](h
     <h2 align="center"><img src="readme-images/validator-index-html.jpg" alt="HTML Validation - Home page" target="_blank" width="60%" height="60%"></h2>
 
 ### **Our Chocolate page**
-- There are no errors, but three warnings are showing: _"Section lacks heading. Consider using h2-h6 elements"._
+- There are no errors, but three warnings are showing: _"Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections"._
     - This is a warning and not an error and the W3C validator will report a warning when no heading is used inside the section element. It is useful to provide a heading for each section element but it is not a requirement according to [W3C Proposed Recommendation](https://www.w3.org/TR/2014/PR-html5-20140916/sections.html#the-section-element).
     <h2 align="center"><img src="readme-images/validator-our-chocolate-html.jpg" alt="HTML Validation - Our Chocolate page" target="_blank" width="60%" height="60%"></h2>
 
 ### **Our Story page**
-- There are no errors, but two warnings are showing: _"Section lacks heading. Consider using h2-h6 elements"._
+- There are no errors, but two warnings are showing: _"Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections"._
     - This is a warning and not an error and the W3C validator will report a warning when no heading is used inside the section element. It is useful to provide a heading for each section element but it is not a requirement according to [W3C Proposed Recommendation](https://www.w3.org/TR/2014/PR-html5-20140916/sections.html#the-section-element).
     <h2 align="center"><img src="readme-images/validator-our-story-html.jpg" alt="HTML Validation - Our Story page" target="_blank" width="60%" height="60%"></h2>
 
@@ -98,7 +98,7 @@ Every page of the project was validated by the [W3C Markup Validation Service](h
 
 # Functionality Testing 
 Comprehensive testing was executed on each website page. Further elaborated in more details below:
-## Home page
+## Home page testing
 - Navigation
     - Fixed top navigation is fully functional including the brand logo and title.
         - When clicked every navigation link goes to the expected webpage and stays active (bold) to inform the site user on which page he/she currently is.
@@ -108,7 +108,7 @@ Comprehensive testing was executed on each website page. Further elaborated in m
 - Buttons 
     - "Read more" button under 'Our Chocolate' and 'Our Story' sections when clicked directs to the expected webpage.
     - "Click to order" button when clicked directs to the expected webpage.
-    - When hover over, each button changes toe expected background and border color.
+    - When hover over, each button changes to expected background and border color.
     - Back to top arrow button appears on the lower right of page when the user start to scroll down a page. Once clicked, as expected it jumps to the top or the webpage.
 
 - Footer 
@@ -117,28 +117,28 @@ Comprehensive testing was executed on each website page. Further elaborated in m
     - Social media icons once clicked open the expected link in a new tab. 
 
 ## Our Chocolate page
-- Navigation - for the detailed testing please check above navigation testing paragraph under [Home page](#home-page).
+- Navigation - for the detailed testing please check above navigation testing paragraph under [Home page](#home-page-testing).
 - Buttons
     - "Click to order" button when clicked directs to the expected webpage.
     - Back to top arrow button appears on the lower right of page when the user start to scroll down a page. Once clicked, as expected it jumps to the top or the webpage.
-- Footer - for the detailed footer testing please check above footer testing paragraph under [Home page](#home-page).
+- Footer - for the detailed footer testing please check above footer testing paragraph under [Home page](#home-page-testing).
 
 ## Our Story page
-- Navigation - for the detailed navigation testing please check above navigation testing paragraph under [Home page](#home-page).
+- Navigation - for the detailed navigation testing please check above navigation testing paragraph under [Home page](#home-page-testing).
 - Buttons
     - "Click to order" button when clicked directs to the expected webpage.
     - Back to top arrow button appears on the lower right of page when the user start to scroll down a page. Once clicked, as expected it jumps to the top or the webpage.
-- Footer - for the detailed footer testing please check above footer testing paragraph under [Home page](#home-page).
+- Footer - for the detailed footer testing please check above footer testing paragraph under [Home page](#home-page-testing).
 
 ## Contact Us page
-- Navigation - for the detailed navigation testing please check above navigation testing paragraph under [Home page](#home-page).
+- Navigation - for the detailed navigation testing please check above navigation testing paragraph under [Home page](#home-page-testing).
 - Contact form
     - All properties in the contact form are required to be filled in. 
         - The contact form was tested for the validation by submitting first without inputs and then by filling the properties one by one.
         All worked as expected, all properties asked for the input. 
         - Furthermore, the email property asks for the email format with @ symbol.
     - Submission confirmation opens in a new tab.
-- Footer - for the detailed footer testing please check above footer testing paragraph under [Home page](#home-page).   
+- Footer - for the detailed footer testing please check above footer testing paragraph under [Home page](#home-page-testing).   
 
 ## Browser Testing
 - The website was tested on the bellow browser. All browser versions were up to date.
@@ -152,7 +152,6 @@ Comprehensive testing was executed on each website page. Further elaborated in m
 
 I didn't encounter any issue, the website is fully functioning and fully responsive on all above mentioned browsers. 
 Further testing was done using [BrowserLing](https://www.browserling.com/) for Internet Explorer 11.
-
 
 ## Device Testing
 - The website was physically tested on the following devices with different screen sizes:
@@ -174,8 +173,8 @@ There were couple of issues found described under [Encountered Issues](#encounte
 
 # Encountered Issues
 Several bugs were encountered during the coding process:
-- The 'navbar-toggler' (hamburger icon) wasn't inline with the logo on iPhone5. 
-    <h2 align="center"><img src="readme-images/bug-iphone5.jpg" alt="iPhone5 hamburger icon" target="_blank" width="35%" height="35%"></h2>
+- The 'navbar-toggler' (hamburger icon) wasn't inline with the logo and title on iPhone5. 
+    <h2 align="center"><img src="readme-images/bug-iphone5.jpg" alt="iPhone5 hamburger icon" target="_blank" width="50%" height="50%"></h2>
 
     - **Fixed** by adding the media query for screen size min-width of 320px and by adding the following css code:
     ```
@@ -199,6 +198,7 @@ Several bugs were encountered during the coding process:
 
 - Full screen height issue on contact.html page on tablet devices ('min-width: 764px'). The gap was showing between the bottom of the page and footer section.
     - **Fixed** by adding the following css code:
+    <br>
     ```
     .contact-section {
         padding: 8rem 0;
@@ -222,20 +222,35 @@ Several bugs were encountered during the coding process:
 Performance was tested using [Lighthouse](https://developers.google.com/web/tools/lighthouse) tool.
 
 ## Home page
-
 <h2 align="center"><img src="readme-images/lighthouse-home-performan.jpg" alt="lighthouse performance for home page" target="_blank" width="60%" height="60%"></h2>
 
 The results were somewhat different every time. Following article [Why are my Lighthouse scores different from my other test results?](https://support.speedcurve.com/en/articles/4088236-why-are-my-lighthouse-scores-different-from-my-other-test-results#:~:text=The%20performance%20score%20is%20strongly,cause%20variability%20in%20your%20scores.) gives 
-explanation that "the performance score is strongly influenced by Time to Interactive (TTI) 
+explanation on Lighthouse that "the performance score is strongly influenced by Time to Interactive (TTI) 
 and Total Blocking Time (TBT), which can be quite different depending on the test environment 
 and runtime settings." 
 
-The performance results are satisfying as the home page 
+The performance results are satisfying as the home page is heavy loaded with the content.
 
+## Our Chocolate page
+<h2 align="center"><img src="readme-images/lighthouse-chocolate.jpg" alt="lighthouse performance for our chocolate page" target="_blank" width="60%" height="60%"></h2>
 
+The performance results are satisfying as the home page is heavy loaded with the content, especially images.
 
-I've consulted with my mentor regarding the performance results and he advised that the performance test results are satisfying.
+## Our Story page
+<h2 align="center"><img src="readme-images/lighthouse-story.jpg" alt="lighthouse performance for our story page" target="_blank" width="60%" height="60%"></h2>
+
+The performance results are satisfying as the home page is heavy loaded with the content, especially images.
+
+## Contact Us page
+<h2 align="center"><img src="readme-images/lighthouse-contact.jpg" alt="lighthouse performance for contact us page" target="_blank" width="60%" height="60%"></h2>
+
+The performance results are very satisfying. The performance value is much higher on this page since the page is no heavy on content.
+
+I have consulted with my mentor regarding the performance results and he advised that the performance test results are satisfying.
 <br>
-Accessibility
+
+## Accessibility
+The website accessibility was tested using DevTools and checking contrast ratio. 
+The results are satisfying.
 
 Click here to return to the main [README.md](README.md)
