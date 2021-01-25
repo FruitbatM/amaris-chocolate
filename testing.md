@@ -140,10 +140,6 @@ Comprehensive testing was executed on each website page. Further elaborated in m
     - Submission confirmation opens in a new tab.
 - Footer - for the detailed footer testing please check above footer testing paragraph under [Home page](#home-page).   
 
-## Responsiveness 
-Responsive Layout 
-<br>
-
 ## Browser Testing
 - The website was tested on the bellow browser. All browser versions were up to date.
     - Google Chrome
@@ -155,6 +151,8 @@ Responsive Layout
     - Samsung Internet 
 
 I didn't encounter any issue, the website is fully functioning and fully responsive on all above mentioned browsers. 
+Further testing was done using [BrowserLing](https://www.browserling.com/) for Internet Explorer 11.
+
 
 ## Device Testing
 - The website was physically tested on the following devices with different screen sizes:
@@ -169,8 +167,10 @@ I didn't encounter any issue, the website is fully functioning and fully respons
     - Samsung Galaxy Tab A (Chrome for Android & Samsung Internet)
     - Lenovo ThinkBook 13S
 
+The results were consistent, the website is platform-cross compatible and responsive.
 
-The result was consistent, website is platform-cross compatible.
+Furthermore, using DevTools I checked responsiveness for different screen sizes for mobile and tablet devices.
+There were couple of issues found described under [Encountered Issues](#encountered-issues) section.
 
 # Encountered Issues
 Several bugs were encountered during the coding process:
@@ -219,8 +219,23 @@ Several bugs were encountered during the coding process:
     - **Fixed** by adding correct file path. 
 
 # Performance Testing
-Lighthouse
+Performance was tested using [Lighthouse](https://developers.google.com/web/tools/lighthouse) tool.
+
+## Home page
+
+<h2 align="center"><img src="readme-images/lighthouse-home-performan.jpg" alt="lighthouse performance for home page" target="_blank" width="60%" height="60%"></h2>
+
+The results were somewhat different every time. Following article [Why are my Lighthouse scores different from my other test results?](https://support.speedcurve.com/en/articles/4088236-why-are-my-lighthouse-scores-different-from-my-other-test-results#:~:text=The%20performance%20score%20is%20strongly,cause%20variability%20in%20your%20scores.) gives 
+explanation that "the performance score is strongly influenced by Time to Interactive (TTI) 
+and Total Blocking Time (TBT), which can be quite different depending on the test environment 
+and runtime settings." 
+
+The performance results are satisfying as the home page 
+
+
+
+I've consulted with my mentor regarding the performance results and he advised that the performance test results are satisfying.
 <br>
-Accessibility, Performance
+Accessibility
 
 Click here to return to the main [README.md](README.md)
