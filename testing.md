@@ -172,7 +172,7 @@ There were couple of issues found described under [Encountered Issues](#encounte
 # Encountered Issues
 Several bugs were encountered during the coding process:
 - The 'navbar-toggler' (hamburger icon) wasn't inline with the logo and title on iPhone5. 
-    <h2 align="center"><img src="readme-images/bug-iphone5.jpg" alt="iPhone5 hamburger icon" target="_blank" width="50%" height="50%"></h2>
+    <h2 align="center"><img src="readme-images/bug-iphone5.jpg" alt="iPhone5 hamburger icon" target="_blank" width="30%" height="30%"></h2>
 
     - **Fixed** by adding the media query for screen size min-width of 320px and by adding the following css code:
     ```
@@ -205,7 +205,7 @@ Several bugs were encountered during the coding process:
     Following article was helpful in fixing this issue: [Fullscreen height](http://webandapp.fr/blog/2017/09/fullscreen-height-issue-reopened/).
 
 - Logo on the navigation bar was upload with the space in the name which is not allowed - space is not allowed for attribute ```src``` on element ```img```.
-    <h2 align="center"><img src="readme-images/bug-logo-name.jpg" alt="incorrect logo name" target="_blank" width="35%" height="35%"></h2>
+    <h2 align="center"><img src="readme-images/bug-logo-name.jpg" alt="incorrect logo name" target="_blank" width="30%" height="30%"></h2>
 
     - **Fixed** by deleting the logo image from the repository, correcting the name without the space (adding hyphen) and again uploading the image.
 

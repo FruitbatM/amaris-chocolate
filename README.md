@@ -215,8 +215,6 @@ The project deployment to GitHub Pages is explained in the below steps:
 
     ![GitHub link to published site](readme-images/github-live-link.jpg)
 
-## Forking GitHub Repository
-
 # Credits
 ## Code
 - [W3School](https://www.w3schools.com/) was used:
