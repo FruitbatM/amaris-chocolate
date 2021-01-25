@@ -169,11 +169,12 @@ I didn't encounter any issue, the website is fully functioning and fully respons
     - Samsung Galaxy Tab A (Chrome for Android & Samsung Internet)
     - Lenovo ThinkBook 13S
 
-The results were consistent, website is platform-cross compatible.
+
+The result was consistent, website is platform-cross compatible.
 
 # Encountered Issues
 Several bugs were encountered during the coding process:
-- The r clicking is staying in hover effect(colour change unless website refreshed)T wasn't inline with the logo on iPhone5. 
+- The 'navbar-toggler' (hamburger icon) wasn't inline with the logo on iPhone5. 
     <h2 align="center"><img src="readme-images/bug-iphone5.jpg" alt="iPhone5 hamburger icon" target="_blank" width="35%" height="35%"></h2>
 
     - **Fixed** by adding the media query for screen size min-width of 320px and by adding the following css code:
