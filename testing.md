@@ -2,10 +2,9 @@
 ## Table of Contents
 1. [User Stories Testing](#user-stories)
 2. [Code Validation](#code-validation)
-3. [Functionality Testing](#functionality-testing)
-4. Performance Testing
-5. Encountered Issues
-
+3. [Functionality Testing]()
+4. [Encountered Issues](#encountered-issues)
+5. [Performance Testing]()
 
 # User Stories Testing
 ## Visitor Stories
@@ -98,13 +97,53 @@ Every page of the project was validated by the [W3C Markup Validation Service](h
     <h2 align="center"><img src="readme-images/js-validator.jpg" alt="JS Validation" target="_blank" width="50%" height="50%"></h2>
 
 # Functionality Testing 
-Feature testing - each page section
-<br>
-Checking for broken links - each page
-<br>
+Comprehensive testing was executed on each website page. Further elaborated in more details below:
+## Home page
+- Navigation
+    - Fixed top navigation is fully functional including the brand logo and title.
+        - When clicked every navigation link goes to the expected webpage and stays active (bold) to inform the site user on which page he/she currently is.
+        - On medium and small screen sizes the navigation collapses to navbar-toggler-icon (hamburger icon).
+        - When hover over each navigation link, underline gets displayed for better visibility and accessibility.
+        - When clicked on brand logo and title, the user is directed to the Home page.
+- Buttons 
+    - "Read more" button under 'Our Chocolate' and 'Our Story' sections when clicked directs to the expected webpage.
+    - "Click to order" button when clicked directs to the expected webpage.
+    - When hover over, each button changes toe expected background and border color.
+    - Back to top arrow button appears on the lower right of page when the user start to scroll down a page. Once clicked, as expected it jumps to the top or the webpage.
+
+- Footer 
+    - Clicking on the email address allows the user to send an email directly from the page. 
+    - Clicking on the telephone number, the pop-up dialling box appears which allows the user to click the call button and make a call.
+    - Social media icons once clicked open the expected link in a new tab. 
+
+## Our Chocolate page
+- Navigation - for the detailed testing please check above navigation testing paragraph under [Home page](#home-page).
+- Buttons
+    - "Click to order" button when clicked directs to the expected webpage.
+    - Back to top arrow button appears on the lower right of page when the user start to scroll down a page. Once clicked, as expected it jumps to the top or the webpage.
+- Footer - for the detailed footer testing please check above footer testing paragraph under [Home page](#home-page).
+
+## Our Story page
+- Navigation - for the detailed navigation testing please check above navigation testing paragraph under [Home page](#home-page).
+- Buttons
+    - "Click to order" button when clicked directs to the expected webpage.
+    - Back to top arrow button appears on the lower right of page when the user start to scroll down a page. Once clicked, as expected it jumps to the top or the webpage.
+- Footer - for the detailed footer testing please check above footer testing paragraph under [Home page](#home-page).
+
+## Contact Us page
+- Navigation - for the detailed navigation testing please check above navigation testing paragraph under [Home page](#home-page).
+- Contact form
+    - All properties in the contact form are required to be filled in. 
+        - The contact form was tested for the validation by submitting first without inputs and then by filling the properties one by one.
+        All worked as expected, all properties asked for the input. 
+        - Furthermore, the email property asks for the email format with @ symbol.
+    - Submission confirmation opens in a new tab.
+- Footer - for the detailed footer testing please check above footer testing paragraph under [Home page](#home-page).   
+
+## Responsiveness 
 Responsive Layout 
 <br>
-Form validation
+
 
 ## Browser Testing
 - The website was tested on the bellow browser. All browser versions were up to date.
@@ -119,7 +158,7 @@ Form validation
 I didn't encounter any issue, the website is fully functioning and fully responsive on all above mentioned browsers. 
 
 ## Device Testing
-- The website was tested on the following devices:
+- The website was physically tested on the following devices with different screen sizes:
     - iPhone 7 (Safari & Google Chrome)
     - iPhone 8 (Safari & Google Chrome)
     - Samsung GTI9505 Galaxy S4  (Chrome for Android)
@@ -129,15 +168,55 @@ I didn't encounter any issue, the website is fully functioning and fully respons
     - Nokia Lumia 640 LTE (Windows 10) (Microsoft Edge)
     - HUAWEI P30 lite (Chrome for Android)
     - Samsung Galaxy Tab A (Chrome for Android & Samsung Internet)
+    - Lenovo ThinkBook 13S
 
-
-The result was consistent, website is platform-cross compatible.
-
-
+The results were consistent, website is platform-cross compatible.
 
 # Encountered Issues
+Several bugs were encountered during the coding process:
+- The r clicking is staying in hover effect(colour change unless website refreshed)T wasn't inline with the logo on iPhone5. 
+    <h2 align="center"><img src="readme-images/bug-iphone5.jpg" alt="iPhone5 hamburger icon" target="_blank" width="35%" height="35%"></h2>
 
-Bugs & issues
+    - **Fixed** by adding the media query for screen size min-width of 320px and by adding the following css code:
+    ```
+    @media only screen and (min-width: 320px) and (max-width: 568px)
+    and (-webkit-device-pixel-ratio: 2) and (min-aspect-ratio: 40/71) and (orientation:portrait) {
+        .logo {
+        width: 45px;
+        height: 45px;
+        }
+        .navbar-brand {
+            margin-left: 0.2rem !important;
+        }
+        .navbar-text {
+            margin-left: 0.2rem !important;
+            font-size: 1.1rem;
+        }
+    }
+    ```
+    Media queries for the iPhone5 were found on the following article: [Coderwall](https://coderwall.com/p/mwvbea/media-queries-only-for-the-iphone-5-part-i).
+    In the article it states 'min-device-width' and 'max-device-width' which was in the meantime depreciated, so I replaced it with ```min-width``` and ```max-width``` and it passed validation.
+
+- Full screen height issue on contact.html page on tablet devices ('min-width: 764px'). The gap was showing between the bottom of the page and footer section.
+    - **Fixed** by adding the following css code:
+    ```
+    .contact-section {
+        padding: 8rem 0;
+        min-height: 100vh;
+    }
+    ```
+    Following article was helpful in fixing this issue: [Fullscreen height](http://webandapp.fr/blog/2017/09/fullscreen-height-issue-reopened/).
+
+- Logo on the navigation bar was upload with the space in the name which is not allowed - space is not allowed for attribute ```src``` on element ```img```.
+    <h2 align="center"><img src="readme-images/bug-logo-name.jpg" alt="incorrect logo name" target="_blank" width="35%" height="35%"></h2>
+
+    - **Fixed** by deleting the logo image from the repository, correcting the name without the space (adding hyphen) and again uploading the image.
+
+- Small white space was showing on the left and right side of jumbotron background image.
+    - **Fixed** by uploading the larger image. This didn't impact the website performance since all used images were compressed.
+
+- Favicon icon wasn't showing on contact.html page. 
+    - **Fixed** by adding correct file path. 
 
 # Performance Testing
 Lighthouse
