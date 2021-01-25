@@ -144,7 +144,6 @@ Comprehensive testing was executed on each website page. Further elaborated in m
 Responsive Layout 
 <br>
 
-
 ## Browser Testing
 - The website was tested on the bellow browser. All browser versions were up to date.
     - Google Chrome
