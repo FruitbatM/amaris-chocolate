@@ -104,16 +104,11 @@ For the background I used Linen (#F5E8E1) colour which I alternated with the whi
 
 ### Imagery
 - For the website I used impactful images with chocolate and cocoa beans motives to promote Amaris Chocolate brand & products, to attract the user's attention and to try to influence the need to make a purchase.
-All images are sized and compressed for the best user experience.
 
 - I paid attention that the images match the captions and are labeled with keywords important to the website content to improve onsite SEO.
 
-- The images were sourced from the below stock photography websites:
-    - [Shutterstock](https://www.shutterstock.com/)*
-    - [Unsplash](https://unsplash.com/)*
-    - [Flickr](https://www.flickr.com/)*
-    - Images provided by the company owner*
-    *source and credit for all images used is referenced in the code
+- All images are sized and compressed for the best user experience.
+
 ### Icons
 - I used several icons to improve the website's UX from:
     - [Font Awesome](https://fontawesome.com/)
@@ -177,7 +172,6 @@ Bellow I describe features in more details.
 - [Techsini](http://techsini.com/multi-mockup/index.php) was used to create the responsive mockup image.
 - [Shutterstock](https://www.shutterstock.com/) was used to download the images for the site.
 - [Unsplash](https://unsplash.com/) was used to download the images for the site.
-- [Flickr](https://www.flickr.com/) was used to download the images for the site.
 - [Flaticon](https://www.flaticon.com/) was used to download icons for the site.
 - [Animate.css](https://animate.style/) was used as a source for adding CSS animation on headings.
 - [Coolors](https://coolors.co/) was used for colour palette used on the website.
@@ -225,10 +219,20 @@ The project deployment to GitHub Pages is explained in the below steps:
 - [Coderwall](https://coderwall.com/) was used for media queries for iPhone 5 - credit was given in style.css file.
 
 ## Media
-- [Shutterstock](https://www.shutterstock.com/)
-- [Unsplash](https://unsplash.com/)
-- [Flickr](https://www.flickr.com/)
-- [Font Awesome](https://fontawesome.com/)
+### Images
+- The logo was provided by the business owner
+- Chocolate bars were provided by the business owner in CDR format
+- dark-chocolate-amaris.jpg and owner-amaris-chocolate.jpg were provided by the business owner
+- Jumbotron background image, credit: "Sea Wave/Shutterstock.com"
+- cacao-pods.jpg was sourced from [Unsplash](https://unsplash.com/)
+- superfoods-dark-chocolate.jpg was sourced from [Unsplash](https://unsplash.com/)
+- dark-chocolate-on-paper.jpg, credit: "Aleksandrova Karina/Shutterstock.com"
+- bean-to-bar-chocolate.jpg, credit: "beats1/Shutterstock.com"
+- melanger-making-chocolate.jpg, credit: "Max4e Photo/Shutterstock.com"
+
+### Icons
+- Social media icons were sourced from [Font Awesome](https://fontawesome.com/)
+- Icons on 'Our Chocolate' page were sourced from [Flaticon](https://www.flaticon.com/)
 
 ## Content
 Below websites were used for a general layout inspiration:
